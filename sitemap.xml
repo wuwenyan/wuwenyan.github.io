@@ -443,13 +443,6 @@
 
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Brake-Pedal/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wuwenyan.github.io/tags/Axle-Bolt/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -464,7 +457,35 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/tags/Bearing/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Brake-Pedal/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/tags/Brake-Rod/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Brake-Shoe/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Brake-Pad/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -492,35 +513,14 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Bearing/</loc>
+    <loc>https://wuwenyan.github.io/tags/Carry-Rope/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Brake-Shoe/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Brake-Pad/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Chain-Adjuster/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Engine-Block/</loc>
+    <loc>https://wuwenyan.github.io/tags/Elastic-Rope/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -548,6 +548,20 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/tags/Exhaust-Pipe/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Chain-Adjuster/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/tags/Engine-Valve/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -562,21 +576,7 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Exhaust-Pipe/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Carry-Rope/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Elastic-Rope/</loc>
+    <loc>https://wuwenyan.github.io/tags/Footrest-Assembly/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -591,55 +591,6 @@
   
   <url>
     <loc>https://wuwenyan.github.io/tags/CG125/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Fuel-Tap/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Fuel-Cock/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/SIGNAL-LIGHT/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Halogen-Lamp-Series/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Clutch-Lever/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Brake-Lever/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Mirror-Holder/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -667,7 +618,42 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Footrest-Assembly/</loc>
+    <loc>https://wuwenyan.github.io/tags/Engine-Block/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/SIGNAL-LIGHT/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Halogen-Lamp-Series/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Fuel-Tap/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Fuel-Cock/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Hand-Grip-Cover/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -695,14 +681,28 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Horn/</loc>
+    <loc>https://wuwenyan.github.io/tags/Clutch-Lever/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Hand-Grip-Cover/</loc>
+    <loc>https://wuwenyan.github.io/tags/Brake-Lever/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Mirror-Holder/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Horn/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -723,34 +723,6 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Main-Stand/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Plastic/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Rear-Light-Cover/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Oil-Seal/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wuwenyan.github.io/tags/Oil-Bolt/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -758,7 +730,14 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Shock-Hose/</loc>
+    <loc>https://wuwenyan.github.io/tags/Main-Stand/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Oil-Seal/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -779,21 +758,14 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Spark-Plug-Cap/</loc>
+    <loc>https://wuwenyan.github.io/tags/Plastic/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Switch-Key/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Tank-Cover/</loc>
+    <loc>https://wuwenyan.github.io/tags/Rear-Light-Cover/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -814,6 +786,13 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/tags/Shock-Hose/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/tags/Spindle/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -821,7 +800,7 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/Splint-Clips/</loc>
+    <loc>https://wuwenyan.github.io/tags/Spark-Plug-Cap/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -835,14 +814,7 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/tags/The-External-Light/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/tags/U-Holder-Series/</loc>
+    <loc>https://wuwenyan.github.io/tags/Splint-Clips/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -863,7 +835,42 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/tags/Spring/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/The-External-Light/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/U-Holder-Series/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/tags/Lens-Series/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Switch-Key/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/tags/Tank-Cover/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -890,38 +897,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://wuwenyan.github.io/tags/Spring/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/FORGED-PARTS/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wuwenyan.github.io/categories/AXLE-BOLT/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/BRAKE-ROD/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/CABLE/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -935,6 +914,20 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/categories/FORGED-PARTS/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/BRAKE-ROD/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/categories/BRAKE-SHOE/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -942,14 +935,14 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/SCREW-NUT-ACCESSORY/</loc>
+    <loc>https://wuwenyan.github.io/categories/CABLE/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/ENGINE-BLOCK/</loc>
+    <loc>https://wuwenyan.github.io/categories/CARRY-ROPE/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -970,49 +963,14 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/categories/SCREW-NUT-ACCESSORY/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/categories/ENGINE-VALVE/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/CARRY-ROPE/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/EXHAUST-PIPE-BRACKET/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/FUEL-TAP/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/LED-LIGHTS/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/HANDLE-LEVER/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/ABSORBER/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1026,7 +984,35 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/ELECTRIC-PARTS/</loc>
+    <loc>https://wuwenyan.github.io/categories/EXHAUST-PIPE-BRACKET/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/ABSORBER/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/ENGINE-BLOCK/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/LED-LIGHTS/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/FUEL-TAP/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1040,14 +1026,21 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/MAIN-STAND/</loc>
+    <loc>https://wuwenyan.github.io/categories/HANDLE-LEVER/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/PLASTIC/</loc>
+    <loc>https://wuwenyan.github.io/categories/ELECTRIC-PARTS/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/MAIN-STAND/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1061,14 +1054,7 @@
   </url>
   
   <url>
-    <loc>https://wuwenyan.github.io/categories/PLASTIC-PARTS/</loc>
-    <lastmod>2022-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wuwenyan.github.io/categories/SWITCH-KEY/</loc>
+    <loc>https://wuwenyan.github.io/categories/PLASTIC/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1089,6 +1075,13 @@
   </url>
   
   <url>
+    <loc>https://wuwenyan.github.io/categories/PLASTIC-PARTS/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wuwenyan.github.io/categories/SPARK-PLUG/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1097,6 +1090,13 @@
   
   <url>
     <loc>https://wuwenyan.github.io/categories/SPRING/</loc>
+    <lastmod>2022-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wuwenyan.github.io/categories/SWITCH-KEY/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
