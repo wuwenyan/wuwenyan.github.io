@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>BUTTON SWITCH</title>
+      <link href="/2022/08/24/button%20switch/"/>
+      <url>/2022/08/24/button%20switch/</url>
+      
+        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/button switch/1.jpeg"/>    </div>    <div class="product-item">        <img class="product-img" src="/images/button switch/2.jpeg"/>    </div>    <div class="product-item">        <img class="product-img" src="/images/button switch/3.jpeg"/>    </div>    <div class="product-item">        <img class="product-img" src="/images/button switch/4.jpeg"/>    </div>                <div class="product-item">        <img class="product-img" src="/images/button switch/5.jpeg"/>    </div>    <div class="product-item">        <img class="product-img" src="/images/button switch/6.jpeg"/>    </div>    <div class="product-item">        <img class="product-img" src="/images/button switch/7.jpeg"/>    </div></div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> BUTTON SWITCH </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Button Switch </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>WINKER</title>
       <link href="/2022/08/24/winker/"/>
       <url>/2022/08/24/winker/</url>
@@ -472,31 +497,6 @@
     
     
     <entry>
-      <title>SIDE STAND</title>
-      <link href="/2022/07/22/side%20stand/"/>
-      <url>/2022/07/22/side%20stand/</url>
-      
-        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/side stand/AX100 1.jpeg"/>        <span class="product-model-des">AX100</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/AX100 2.jpeg"/>        <span class="product-model-des">AX100</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/side stand/BAJAJ 1.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/BAJAJ 2.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/side stand/CD110 1.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/CD110 2.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 1.jpg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 2.jpg"/>        <span class="product-model-des">GN125</span>    </div>                <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 3.jpeg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 4.jpeg"/>        <span class="product-model-des">GN125</span>    </div>    </div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
-      
-      
-      <categories>
-          
-          <category> SIDE STAND </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Side Stand </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>ROCKER ARM</title>
       <link href="/2022/07/22/rocker%20arm/"/>
       <url>/2022/07/22/rocker%20arm/</url>
@@ -514,6 +514,31 @@
         <tags>
             
             <tag> Rocker Arm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SIDE STAND</title>
+      <link href="/2022/07/22/side%20stand/"/>
+      <url>/2022/07/22/side%20stand/</url>
+      
+        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/side stand/AX100 1.jpeg"/>        <span class="product-model-des">AX100</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/AX100 2.jpeg"/>        <span class="product-model-des">AX100</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/side stand/BAJAJ 1.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/BAJAJ 2.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/side stand/CD110 1.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/CD110 2.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 1.jpg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 2.jpg"/>        <span class="product-model-des">GN125</span>    </div>                <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 3.jpeg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/side stand/GN125 4.jpeg"/>        <span class="product-model-des">GN125</span>    </div>    </div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> SIDE STAND </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Side Stand </tag>
             
         </tags>
       
