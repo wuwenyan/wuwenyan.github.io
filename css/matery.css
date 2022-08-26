@@ -281,6 +281,7 @@ nav {
 
 header .nav-transparent {
     background-color: transparent !important;
+    /* background-image: linear-gradient(to right, #0078b4 0%, #0078b4 100%); */
     background-image: none;
     box-shadow: none;
 }
