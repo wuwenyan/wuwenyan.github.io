@@ -812,27 +812,6 @@
 
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Axle-Bolt/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Bolt-Screw-Nut/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Air-Filter/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Back-Shock/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -847,7 +826,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Starter-Clutch-Body/</loc>
+    <loc>https://www.adaeze.cf/tags/Air-Filter/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Bearing/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -855,6 +841,20 @@
   
   <url>
     <loc>https://www.adaeze.cf/tags/Outer-Brake-Cam/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Axle-Bolt/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Bolt-Screw-Nut/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -875,6 +875,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Starter-Clutch-Body/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Brake-Shoe/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -889,42 +896,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Bulb-Sitting/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Rubber/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Wire/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Bearing/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Button-Switch/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Camshaft/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -952,7 +924,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Carburetor-Kit/</loc>
+    <loc>https://www.adaeze.cf/tags/Camshaft/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -966,28 +938,35 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Carburetor-Kit/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Bulb-Sitting/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Rubber/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Wire/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Carburetor/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Carry-Rope/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Elastic-Rope/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Chain-Adjuster/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1008,20 +987,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Complete-Timing-Chain/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Oil-Pump-Sprocket/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Clutch-Disk-Plate/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1029,7 +994,28 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Chain-Adjuster/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Complete-Wire/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Carry-Rope/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Elastic-Rope/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1050,27 +1036,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Damper-Rubber/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Wheel-Hub-Rubber/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Engine-Block/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Engine-Valve/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1085,13 +1050,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Exhaust-Pipe/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Down-Fork-Bushing/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1099,14 +1057,35 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Exhaust-Pipe-Bracket/</loc>
+    <loc>https://www.adaeze.cf/tags/Complete-Timing-Chain/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/CG125/</loc>
+    <loc>https://www.adaeze.cf/tags/Oil-Pump-Sprocket/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Engine-Block/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Damper-Rubber/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Wheel-Hub-Rubber/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1127,28 +1106,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Front-Shock/</loc>
+    <loc>https://www.adaeze.cf/tags/Exhaust-Pipe-Bracket/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Front-Fork/</loc>
+    <loc>https://www.adaeze.cf/tags/CG125/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Front-Footrest-Rubber/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Footrest-Assembly/</loc>
+    <loc>https://www.adaeze.cf/tags/Exhaust-Pipe/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1156,6 +1128,13 @@
   
   <url>
     <loc>https://www.adaeze.cf/tags/Fuel-Hose/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Front-Footrest-Rubber/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1176,6 +1155,34 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Front-Shock/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Front-Fork/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Gasket/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Footrest-Assembly/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/SIGNAL-LIGHT/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1190,14 +1197,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Gasket/</loc>
+    <loc>https://www.adaeze.cf/tags/Hand-Grip-Cover/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Hand-Grip-Cover/</loc>
+    <loc>https://www.adaeze.cf/tags/Headlight/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Glass-Series/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1225,21 +1239,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Headlight/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Sunflower-Series/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Glass-Series/</loc>
+    <loc>https://www.adaeze.cf/tags/Horn/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1267,13 +1267,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Horn/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Inner-Kick/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1281,21 +1274,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Kick-Starter/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Outer-Kick/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Led-Module/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Sunflower-Series/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Neck-Bearing/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1323,6 +1316,20 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Kick-Starter/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Outer-Kick/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Oil-Pump/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1330,42 +1337,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Gear-Shift-Lever/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Outer-Gear/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Piston-Bearing/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Neck-Bearing/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Pointer/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Turn-Light/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1393,6 +1365,34 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Pointer/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Turn-Light/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Gear-Shift-Lever/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Outer-Gear/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Rear-Light-Cover/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1401,20 +1401,6 @@
   
   <url>
     <loc>https://www.adaeze.cf/tags/Rear-Footrest/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Seat-Cover-Net/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Shock-Hose/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1435,14 +1421,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Side-Stand/</loc>
+    <loc>https://www.adaeze.cf/tags/Seat-Cover-Net/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Side-Cover/</loc>
+    <loc>https://www.adaeze.cf/tags/Shock-Hose/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1463,6 +1449,20 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Side-Cover/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Side-Stand/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/Spark-Plug-Cap/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1470,28 +1470,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Spring/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/tags/Spark-Plug/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Splint-Clips/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/tags/Spindle/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1526,14 +1505,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Tappet-Valve/</loc>
+    <loc>https://www.adaeze.cf/tags/Splint-Clips/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Starter-Motor/</loc>
+    <loc>https://www.adaeze.cf/tags/Spring/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1554,7 +1533,21 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/tags/Spindle/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/tags/The-External-Light/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/U-Holder-Series/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1568,7 +1561,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/Timing-Sprocket/</loc>
+    <loc>https://www.adaeze.cf/tags/Starter-Motor/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1576,6 +1569,20 @@
   
   <url>
     <loc>https://www.adaeze.cf/tags/Truck-Lights/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Timing-Sprocket/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/tags/Valve-Cover/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1596,7 +1603,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/tags/U-Holder-Series/</loc>
+    <loc>https://www.adaeze.cf/tags/Tappet-Valve/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1609,17 +1616,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://www.adaeze.cf/tags/Valve-Cover/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://www.adaeze.cf/categories/AXLE-BOLT/</loc>
+    <loc>https://www.adaeze.cf/categories/ABSORBER/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1633,14 +1633,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/ABSORBER/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/categories/ENGINE-PARTS/</loc>
+    <loc>https://www.adaeze.cf/categories/BEARING/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1648,6 +1641,13 @@
   
   <url>
     <loc>https://www.adaeze.cf/categories/OUTER-BRAKE-CAM/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/categories/AXLE-BOLT/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1668,21 +1668,14 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cf/categories/ENGINE-PARTS/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cf/categories/BRAKE-SHOE/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/categories/BULB-SITTING/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/categories/BEARING/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1696,14 +1689,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/CAMSHAFT/</loc>
+    <loc>https://www.adaeze.cf/categories/CABLE/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/CABLE/</loc>
+    <loc>https://www.adaeze.cf/categories/CAMSHAFT/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1717,14 +1710,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/CARRY-ROPE/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cf/categories/SCREW-NUT-ACCESSORY/</loc>
+    <loc>https://www.adaeze.cf/categories/BULB-SITTING/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1738,7 +1724,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/COMPLETE-TIMING-CHAIN/</loc>
+    <loc>https://www.adaeze.cf/categories/SCREW-NUT-ACCESSORY/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1752,14 +1738,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/CRANK-SHAFT/</loc>
+    <loc>https://www.adaeze.cf/categories/CARRY-ROPE/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/ENGINE-BLOCK/</loc>
+    <loc>https://www.adaeze.cf/categories/CRANK-SHAFT/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1780,7 +1766,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/EXHAUST-PIPE-BRACKET/</loc>
+    <loc>https://www.adaeze.cf/categories/COMPLETE-TIMING-CHAIN/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/categories/ENGINE-BLOCK/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1794,7 +1787,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/FOOTREST-ASSEMBLY/</loc>
+    <loc>https://www.adaeze.cf/categories/EXHAUST-PIPE-BRACKET/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1808,14 +1801,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/LED-LIGHTS/</loc>
+    <loc>https://www.adaeze.cf/categories/GASKET/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/GASKET/</loc>
+    <loc>https://www.adaeze.cf/categories/FOOTREST-ASSEMBLY/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/categories/LED-LIGHTS/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1836,14 +1836,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/HELMET/</loc>
+    <loc>https://www.adaeze.cf/categories/ELECTRICAL-PARTS/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/ELECTRICAL-PARTS/</loc>
+    <loc>https://www.adaeze.cf/categories/HELMET/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1892,13 +1892,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/SEAT-COVER/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/categories/ROCKER-ARM/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1906,7 +1899,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/SIDE-STAND/</loc>
+    <loc>https://www.adaeze.cf/categories/SEAT-COVER/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1920,7 +1913,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/SPRING/</loc>
+    <loc>https://www.adaeze.cf/categories/SIDE-STAND/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1934,13 +1927,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/SPINDLE/</loc>
-    <lastmod>2022-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cf/categories/SPROCKET/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1948,7 +1934,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/TAPPET-VALVE/</loc>
+    <loc>https://www.adaeze.cf/categories/SPRING/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1962,7 +1948,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cf/categories/WINKER/</loc>
+    <loc>https://www.adaeze.cf/categories/SPINDLE/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1970,6 +1956,20 @@
   
   <url>
     <loc>https://www.adaeze.cf/categories/VALVE-COVER/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/categories/TAPPET-VALVE/</loc>
+    <lastmod>2022-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cf/categories/WINKER/</loc>
     <lastmod>2022-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
