@@ -864,13 +864,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/CRYPTON/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/tags/CY80/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -885,7 +878,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/V80/</loc>
+    <loc>https://www.adaeze.cn/tags/CRYPTON/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -900,13 +893,6 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Absorber/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Starter-Clutch-Body/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -934,6 +920,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Starter-Clutch-Body/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/Outer-Brake-Cam/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -941,42 +934,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Brake-Shoe/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Brake-Pad/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Bulb-Sitting/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Rubber/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Wire/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/tags/Brake-Rod/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Brake-Pedal/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1004,7 +969,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Button-Switch/</loc>
+    <loc>https://www.adaeze.cn/tags/V80/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1018,35 +983,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Brake-Pedal/</loc>
+    <loc>https://www.adaeze.cn/tags/Brake-Shoe/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Carbon-Brush/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Carburetor-Kit/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Carry-Rope/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Elastic-Rope/</loc>
+    <loc>https://www.adaeze.cn/tags/Brake-Pad/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1067,6 +1011,48 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Carbon-Brush/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Carburetor-Kit/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Bulb-Sitting/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Rubber/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Wire/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Button-Switch/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/Chain-Adjuster/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1081,7 +1067,35 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Carry-Rope/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Elastic-Rope/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/Clutch-Assy/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Clutch-Fiber/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Complete-Wire/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1109,49 +1123,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Clutch-Fiber/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Complete-Wire/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/tags/Crank-Shaft/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Crank-Case-Bearing/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Down-Fork-Bushing/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Engine-Valve/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Valve-Oil-Seal/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1179,7 +1151,35 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Engine-Valve/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Valve-Oil-Seal/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/Exhaust-Pipe/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Crank-Case-Bearing/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Down-Fork-Bushing/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1214,14 +1214,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Front-Footrest-Rubber/</loc>
+    <loc>https://www.adaeze.cn/tags/Footrest-Assembly/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Footrest-Assembly/</loc>
+    <loc>https://www.adaeze.cn/tags/Front-Footrest-Rubber/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1236,27 +1236,6 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Front-Fork/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Fuel-Hose/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Fuel-Tap/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Fuel-Cock/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1284,6 +1263,27 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Fuel-Tap/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Fuel-Cock/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Fuel-Hose/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/Clutch-Lever/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1305,13 +1305,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Hand-Grip-Cover/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/tags/Headlight/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1326,7 +1319,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Glass-Series/</loc>
+    <loc>https://www.adaeze.cn/tags/Hand-Grip-Cover/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1334,6 +1327,27 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Horn/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/HONDA/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Today50/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/GFC/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1375,21 +1389,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/HONDA/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Today50/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/GFC/</loc>
+    <loc>https://www.adaeze.cn/tags/Led-Module/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1397,20 +1397,6 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Inner-Kick/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Oil-Bolt/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Led-Module/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1431,7 +1417,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Oil-Pump-Cup/</loc>
+    <loc>https://www.adaeze.cn/tags/Glass-Series/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Oil-Bolt/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1439,6 +1432,20 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Oil-Pump/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Oil-Seal/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Oil-Pump-Cup/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1466,7 +1473,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Oil-Seal/</loc>
+    <loc>https://www.adaeze.cn/tags/Pointer/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Turn-Light/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1494,35 +1508,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Pointer/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Turn-Light/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Rear-Light-Cover/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/tags/Rocker-Arm/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Shock-Hose/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1536,35 +1522,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Side-Mirror/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Rearview-Mirror/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Side-Stand/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Side-Cover/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Spark-Plug/</loc>
+    <loc>https://www.adaeze.cn/tags/Rear-Light-Cover/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1578,7 +1536,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Spindle/</loc>
+    <loc>https://www.adaeze.cn/tags/Shock-Hose/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Side-Cover/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Side-Stand/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1586,6 +1558,13 @@
   
   <url>
     <loc>https://www.adaeze.cn/tags/Spark-Plug-Cap/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Spindle/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1606,14 +1585,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Splint-Clips/</loc>
+    <loc>https://www.adaeze.cn/tags/Side-Mirror/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Spring/</loc>
+    <loc>https://www.adaeze.cn/tags/Rearview-Mirror/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1634,6 +1613,34 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/tags/Splint-Clips/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Spark-Plug/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Starter-Motor/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Tappet-Valve/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/tags/The-External-Light/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1648,21 +1655,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Switch-Key/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Tank-Cover/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/tags/Starter-Motor/</loc>
+    <loc>https://www.adaeze.cn/tags/Spring/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1683,7 +1676,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Timing-Sprocket/</loc>
+    <loc>https://www.adaeze.cn/tags/Switch-Key/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/tags/Tank-Cover/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1704,14 +1704,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Valve-Cover/</loc>
+    <loc>https://www.adaeze.cn/tags/Timing-Sprocket/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/tags/Tappet-Valve/</loc>
+    <loc>https://www.adaeze.cn/tags/Valve-Cover/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1725,13 +1725,6 @@
   </url>
   
 
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/CRYPTON/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://www.adaeze.cn/categories/CY80/</loc>
@@ -1748,7 +1741,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/V80/</loc>
+    <loc>https://www.adaeze.cn/categories/CRYPTON/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1756,13 +1749,6 @@
   
   <url>
     <loc>https://www.adaeze.cn/categories/ABSORBER/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/ENGINE-PARTS/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1783,21 +1769,14 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/categories/ENGINE-PARTS/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/categories/OUTER-BRAKE-CAM/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/BRAKE-SHOE/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/BULB-SITTING/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1811,6 +1790,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/categories/FORGED-PARTS/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/categories/CABLE/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1818,7 +1804,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/BUTTON-SWITCH/</loc>
+    <loc>https://www.adaeze.cn/categories/V80/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1832,14 +1818,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/FORGED-PARTS/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/CARBON-BRUSH/</loc>
+    <loc>https://www.adaeze.cn/categories/BRAKE-SHOE/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1853,7 +1832,21 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/CARRY-ROPE/</loc>
+    <loc>https://www.adaeze.cn/categories/CARBON-BRUSH/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/BULB-SITTING/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/BUTTON-SWITCH/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1874,14 +1867,14 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/CLUTCH-ASSY/</loc>
+    <loc>https://www.adaeze.cn/categories/CARRY-ROPE/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/COMPLETE-TIMING-CHAIN/</loc>
+    <loc>https://www.adaeze.cn/categories/CLUTCH-ASSY/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1895,6 +1888,13 @@
   </url>
   
   <url>
+    <loc>https://www.adaeze.cn/categories/COMPLETE-TIMING-CHAIN/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adaeze.cn/categories/CRANK-SHAFT/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1902,7 +1902,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/DOWN-FORK-BUSHING/</loc>
+    <loc>https://www.adaeze.cn/categories/ENGINE-BLOCK/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1916,7 +1916,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/ENGINE-BLOCK/</loc>
+    <loc>https://www.adaeze.cn/categories/DOWN-FORK-BUSHING/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1944,13 +1944,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/FUEL-TAP/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/categories/LED-LIGHTS/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1959,6 +1952,13 @@
   
   <url>
     <loc>https://www.adaeze.cn/categories/GASKET/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/FUEL-TAP/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1986,13 +1986,6 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/HELMET/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/categories/HONDA-TODAY/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2000,7 +1993,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/INNER-KICK/</loc>
+    <loc>https://www.adaeze.cn/categories/HELMET/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2008,6 +2001,13 @@
   
   <url>
     <loc>https://www.adaeze.cn/categories/LED-MODULE/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/INNER-KICK/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2056,21 +2056,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/SIDE-MIRROR/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adaeze.cn/categories/SIDE-STAND/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/SPARK-PLUG/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2084,7 +2070,7 @@
   </url>
   
   <url>
-    <loc>https://www.adaeze.cn/categories/SPRING/</loc>
+    <loc>https://www.adaeze.cn/categories/SIDE-MIRROR/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2092,6 +2078,27 @@
   
   <url>
     <loc>https://www.adaeze.cn/categories/SPROCKET/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/SPARK-PLUG/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/TAPPET-VALVE/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adaeze.cn/categories/SPRING/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2106,13 +2113,6 @@
   
   <url>
     <loc>https://www.adaeze.cn/categories/VALVE-COVER/</loc>
-    <lastmod>2023-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adaeze.cn/categories/TAPPET-VALVE/</loc>
     <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
