@@ -1006,31 +1006,6 @@
     
     
     <entry>
-      <title>ROCKER ARM</title>
-      <link href="/rocker%20arm.html"/>
-      <url>/rocker%20arm.html</url>
-      
-        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125 1.jpeg"/>        <span class="product-model-des">CG125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125 2.jpeg"/>        <span class="product-model-des">CG125</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125-SY16.jpg"/>        <span class="product-model-des">CG125/SY16</span>    </div>            <div class="product-item">        <img class="product-img" src="/images/rocker arm/GN125 1.jpg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/GN125 2.jpg"/>        <span class="product-model-des">GN125</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rocker arm/CD110 1.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/BAJAJ.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>    </div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
-      
-      
-      <categories>
-          
-          <category> ROCKER ARM </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Rocker Arm </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>SIDE STAND</title>
       <link href="/side%20stand.html"/>
       <url>/side%20stand.html</url>
@@ -1048,6 +1023,31 @@
         <tags>
             
             <tag> Side Stand </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ROCKER ARM</title>
+      <link href="/rocker%20arm.html"/>
+      <url>/rocker%20arm.html</url>
+      
+        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125 1.jpeg"/>        <span class="product-model-des">CG125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125 2.jpeg"/>        <span class="product-model-des">CG125</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rocker arm/CG125-SY16.jpg"/>        <span class="product-model-des">CG125/SY16</span>    </div>            <div class="product-item">        <img class="product-img" src="/images/rocker arm/GN125 1.jpg"/>        <span class="product-model-des">GN125</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/GN125 2.jpg"/>        <span class="product-model-des">GN125</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rocker arm/CD110 1.jpeg"/>        <span class="product-model-des">CD110</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rocker arm/BAJAJ.jpeg"/>        <span class="product-model-des">BAJAJ</span>    </div>    </div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> ROCKER ARM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Rocker Arm </tag>
             
         </tags>
       
