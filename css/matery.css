@@ -1639,10 +1639,17 @@ thead {
 }
 
 .profile .avatar-img {
-    max-width: 160px;
+    /* max-width: 160px;
     width: 100%;
     margin: 0 auto;
-    transform: translate3d(0, -65%, 0);
+    transform: translate3d(0, -65%, 0); */
+    margin: 0 auto;
+	transform: translate3d(0, -65%, 0);
+	width: 160px;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center
 }
 
 .profile .author {
@@ -1672,9 +1679,17 @@ thead {
 }
 
 #aboutme .introduction {
-    margin: 1.5rem auto 3rem;
+    margin: 1.5rem auto 0;
     max-width: 600px;
     color: #999;
+    font-size: 1.2rem;
+}
+
+#aboutme .introduction2 {
+    margin: 1rem auto 2rem;
+    max-width: 600px;
+    color: #999;
+    text-align: left;
 }
 
 .post-charts,
