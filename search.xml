@@ -13,16 +13,16 @@
       
       <categories>
           
-          <category> ACTIVA </category>
+          <category> HONDA ACTIVA </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Activa </tag>
+            <tag> HONDA </tag>
             
-            <tag> Honda </tag>
+            <tag> ACTIVA </tag>
             
             <tag> K24A </tag>
             
@@ -44,18 +44,18 @@
       
       <categories>
           
-          <category> PCX150 </category>
+          <category> HONDA PCX150 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Honda </tag>
+            <tag> HONDA </tag>
             
-            <tag> Pcx150 </tag>
+            <tag> PCX150 </tag>
             
-            <tag> Honda Pcx </tag>
+            <tag> HONDA PCX </tag>
             
         </tags>
       
@@ -109,7 +109,7 @@
       
         <tags>
             
-            <tag> Piston </tag>
+            <tag> PISTON </tag>
             
         </tags>
       
@@ -136,7 +136,9 @@
             
             <tag> GN125 </tag>
             
-            <tag> Headlight </tag>
+            <tag> HEADLIGHT </tag>
+            
+            <tag> LED </tag>
             
         </tags>
       
@@ -163,7 +165,9 @@
             
             <tag> CG125 </tag>
             
-            <tag> Headlight </tag>
+            <tag> HEADLIGHT </tag>
+            
+            <tag> LED </tag>
             
         </tags>
       
@@ -188,7 +192,9 @@
       
         <tags>
             
-            <tag> Headlight </tag>
+            <tag> HEADLIGHT </tag>
+            
+            <tag> LED </tag>
             
             <tag> BAJAJ100 </tag>
             
@@ -219,7 +225,9 @@
             
             <tag> AX100 </tag>
             
-            <tag> Headlight </tag>
+            <tag> HEADLIGHT </tag>
+            
+            <tag> LED </tag>
             
         </tags>
       
@@ -1387,9 +1395,9 @@
       
         <tags>
             
-            <tag> Sprocket </tag>
-            
             <tag> Timing Sprocket </tag>
+            
+            <tag> Sprocket </tag>
             
         </tags>
       
@@ -1414,9 +1422,9 @@
       
         <tags>
             
-            <tag> Chain&amp;Sprocket </tag>
-            
             <tag> Sprocket </tag>
+            
+            <tag> Chain&amp;Sprocket </tag>
             
         </tags>
       
@@ -2406,6 +2414,8 @@
       
         <tags>
             
+            <tag> LED </tag>
+            
             <tag> The External Light </tag>
             
             <tag> Truck Lights </tag>
@@ -2768,6 +2778,8 @@
       
         <tags>
             
+            <tag> LED </tag>
+            
             <tag> The External Light </tag>
             
             <tag> U Holder Series </tag>
@@ -2794,6 +2806,8 @@
       
       
         <tags>
+            
+            <tag> LED </tag>
             
             <tag> The External Light </tag>
             
@@ -2822,6 +2836,8 @@
       
         <tags>
             
+            <tag> LED </tag>
+            
             <tag> Headlight </tag>
             
             <tag> Sunflower Series </tag>
@@ -2849,6 +2865,8 @@
       
         <tags>
             
+            <tag> LED </tag>
+            
             <tag> Headlight </tag>
             
             <tag> Glass Series </tag>
@@ -2875,6 +2893,8 @@
       
       
         <tags>
+            
+            <tag> LED </tag>
             
             <tag> Turning Signal Light </tag>
             
