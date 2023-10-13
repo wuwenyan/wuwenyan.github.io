@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>WHEEL RIM</title>
+      <link href="/rim.html"/>
+      <url>/rim.html</url>
+      
+        <content type="html"><![CDATA[<!-- 图片布局 --><div class="product-content">    <div class="product-item">        <img class="product-img" src="/images/rim/back rim BAJAJ-BM100 1.6*17 1.jpeg"/>        <span class="product-model-des">back rim BAJAJ-BM100 1.6*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim BAJAJ-BM100 1.6*17 2.jpeg"/>        <span class="product-model-des">back rim BAJAJ-BM100 1.6*17</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rim/back rim CGL 1.85*18 1.jpeg"/>        <span class="product-model-des">back rim CGL 1.85*18</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim CGL 1.85*18 2.jpeg"/>        <span class="product-model-des">back rim CGL 1.85*18</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rim/back rim HJ110-2 1.6*17 1.jpeg"/>        <span class="product-model-des">back rim HJ110-2 1.6*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim HJ110-2 1.6*17 2.jpeg"/>        <span class="product-model-des">back rim HJ110-2 1.6*17</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rim/back rim TVS HLX125 1.85*17 1.jpeg"/>        <span class="product-model-des">back rim TVS HLX125 1.85*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim TVS HLX125 1.85*17 2.jpeg"/>        <span class="product-model-des">back rim TVS HLX125 1.85*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim TVS STAR 1.6*17 1.jpeg"/>        <span class="product-model-des">back rim TVS STAR 1.6*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/back rim TVS STAR 1.6*17 2.jpeg"/>        <span class="product-model-des">back rim TVS STAR 1.6*17</span>    </div>        <div class="product-item">        <img class="product-img" src="/images/rim/front rim TVS STAR 1.4*17 1.jpeg"/>        <span class="product-model-des">front rim TVS STAR 1.4*17</span>    </div>    <div class="product-item">        <img class="product-img" src="/images/rim/front rim TVS STAR 1.4*17 2.jpeg"/>        <span class="product-model-des">front rim TVS STAR 1.4*17</span>    </div>    </div><!-- doc全局样式 --><style>@media screen and (min-width: 800px) {    .product-item{width:700px}}.product-content {    text-align: center;}.product-item {    text-align: center;    width: calc(50% - 20px);    font-size: 14px;    display: inline-block;    margin: 8px;    height: 250px;    width: 250px;}.product-img { max-width: 100%!important; height: auto!important; cursor: pointer!important; width: 250px; height: 250px!important; object-fit: cover; border-radius: 5px;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> BODY PARTS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RIM </tag>
+            
+            <tag> WHEEL RIM </tag>
+            
+            <tag> ALUMINUM RIM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>BM150</title>
       <link href="/bm150.html"/>
       <url>/bm150.html</url>
