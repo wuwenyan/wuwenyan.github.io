@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -181,17 +170,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/about" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
@@ -250,7 +228,22 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/1.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+<script>
+    
+        var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/featureimages/motorcyclepictures/" + Math.ceil(Math.random() * 24) + '.webp';
+    
+    if (window.innerWidth <= 768) {
+        // 如果是手机端，可以在这里添加一些JS逻辑
+        console.log('Detected mobile device');
+        // 或者加载移动端特有的JS/资源
+    } else {
+        console.log('Detected PC device');
+    }
+    $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -288,37 +281,10 @@
                 </a>
                 
                 
-                <a href="/tags/YAMAHA/" title="YAMAHA: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="YAMAHA" style="background-color: #D5F5E3;">YAMAHA
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CY80/" title="CY80: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="CY80" style="background-color: #E8F8F5;">CY80
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CRYPTON/" title="CRYPTON: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CRYPTON" style="background-color: #FEF9E7;">CRYPTON
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/HONDA/" title="HONDA: 8">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="HONDA" style="background-color: #F8F9F9;">HONDA
+                            data-tagname="HONDA" style="background-color: #D5F5E3;">HONDA
                         <span class="tag-length">8</span>
                     </span>
                 </a>
@@ -327,7 +293,25 @@
                 <a href="/tags/CD110/" title="CD110: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="CD110" style="background-color: #82E0AA;">CD110
+                            data-tagname="CD110" style="background-color: #E8F8F5;">CD110
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/YAMAHA/" title="YAMAHA: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="YAMAHA" style="background-color: #FEF9E7;">YAMAHA
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CRYPTON/" title="CRYPTON: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CRYPTON" style="background-color: #F8F9F9;">CRYPTON
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -336,62 +320,8 @@
                 <a href="/tags/GN125/" title="GN125: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="GN125" style="background-color: #D7BDE2;">GN125
+                            data-tagname="GN125" style="background-color: #82E0AA;">GN125
                         <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CB125/" title="CB125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CB125" style="background-color: #A3E4D7;">CB125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/KYY/" title="KYY: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="KYY" style="background-color: #85C1E9;">KYY
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/GY6/" title="GY6: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="GY6" style="background-color: #F8C471;">GY6
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/KYMCO/" title="KYMCO: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="KYMCO" style="background-color: #F9E79F;">KYMCO
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/GY6125/" title="GY6125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="GY6125" style="background-color: #FFF;">GY6125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/GY6150/" title="GY6150: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="GY6150" style="background-color: #85C1E9;">GY6150
-                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -399,17 +329,8 @@
                 <a href="/tags/HAOJUE/" title="HAOJUE: 10">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="HAOJUE" style="background-color: #A3E4D7;">HAOJUE
+                            data-tagname="HAOJUE" style="background-color: #D7BDE2;">HAOJUE
                         <span class="tag-length">10</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Xpress/" title="Xpress: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Xpress" style="background-color: #F8C471;">Xpress
-                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -417,7 +338,25 @@
                 <a href="/tags/KA150/" title="KA150: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="KA150" style="background-color: #F5EEF8;">KA150
+                            data-tagname="KA150" style="background-color: #A3E4D7;">KA150
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Xpress/" title="Xpress: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Xpress" style="background-color: #85C1E9;">Xpress
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CY80/" title="CY80: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="CY80" style="background-color: #F8C471;">CY80
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -441,10 +380,91 @@
                 </a>
                 
                 
+                <a href="/tags/CB125/" title="CB125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CB125" style="background-color: #FEF9E7;">CB125
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/KYY/" title="KYY: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="KYY" style="background-color: #FEF9E7;">KYY
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/HJ110-3/" title="HJ110-3: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="HJ110-3" style="background-color: #F9EBEA;">HJ110-3
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/GY6/" title="GY6: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="GY6" style="background-color: #FFF;">GY6
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/KYMCO/" title="KYMCO: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="KYMCO" style="background-color: #82E0AA;">KYMCO
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/GY6125/" title="GY6125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="GY6125" style="background-color: #FFF;">GY6125
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/GY6150/" title="GY6150: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="GY6150" style="background-color: #85C1E9;">GY6150
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/HJ110-6/" title="HJ110-6: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="HJ110-6" style="background-color: #E8F8F5;">HJ110-6
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/UD110/" title="UD110: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="UD110" style="background-color: #D5F5E3;">UD110
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/HJ110-5/" title="HJ110-5: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="HJ110-5" style="background-color: #D5F5E3;">HJ110-5
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -495,24 +515,6 @@
                 </a>
                 
                 
-                <a href="/tags/HJ110-5/" title="HJ110-5: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HJ110-5" style="background-color: #D5F5E3;">HJ110-5
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/HJ125/" title="HJ125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HJ125" style="background-color: #A3E4D7;">HJ125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/V80/" title="V80: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -522,46 +524,10 @@
                 </a>
                 
                 
-                <a href="/tags/HJ110-6/" title="HJ110-6: 1">
+                <a href="/tags/HJ125/" title="HJ125: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="HJ110-6" style="background-color: #E8F8F5;">HJ110-6
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/UD110/" title="UD110: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="UD110" style="background-color: #D5F5E3;">UD110
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/WAVE110/" title="WAVE110: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="WAVE110" style="background-color: #85C1E9;">WAVE110
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/KWW/" title="KWW: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="KWW" style="background-color: #F8F9F9;">KWW
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/KWB/" title="KWB: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="KWB" style="background-color: #F8C471;">KWB
+                            data-tagname="HJ125" style="background-color: #A3E4D7;">HJ125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -594,33 +560,6 @@
                 </a>
                 
                 
-                <a href="/tags/ANGLE-TOOTH/" title="ANGLE TOOTH: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="ANGLE TOOTH" style="background-color: #F9E79F;">ANGLE TOOTH
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/TRICYCLE/" title="TRICYCLE: 6">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="TRICYCLE" style="background-color: #D5F5E3;">TRICYCLE
-                        <span class="tag-length">6</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/3WHEEL/" title="3WHEEL: 6">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="3WHEEL" style="background-color: #85C1E9;">3WHEEL
-                        <span class="tag-length">6</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/WIN100/" title="WIN100: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -630,11 +569,56 @@
                 </a>
                 
                 
-                <a href="/tags/YBR125/" title="YBR125: 1">
+                <a href="/tags/Air-Filter/" title="Air Filter: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="YBR125" style="background-color: #F8F9F9;">YBR125
+                            data-tagname="Air Filter" style="background-color: #82E0AA;">Air Filter
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/WAVE110/" title="WAVE110: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="WAVE110" style="background-color: #85C1E9;">WAVE110
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/KWW/" title="KWW: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="KWW" style="background-color: #F8F9F9;">KWW
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/KWB/" title="KWB: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="KWB" style="background-color: #F8C471;">KWB
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Back-Shock/" title="Back Shock: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Back Shock" style="background-color: #F9E79F;">Back Shock
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Absorber/" title="Absorber: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Absorber" style="background-color: #FFF;">Absorber
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -666,11 +650,29 @@
                 </a>
                 
                 
-                <a href="/tags/Air-Filter/" title="Air Filter: 1">
+                <a href="/tags/ANGLE-TOOTH/" title="ANGLE TOOTH: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Air Filter" style="background-color: #82E0AA;">Air Filter
+                            data-tagname="ANGLE TOOTH" style="background-color: #F9E79F;">ANGLE TOOTH
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/TRICYCLE/" title="TRICYCLE: 6">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="TRICYCLE" style="background-color: #D5F5E3;">TRICYCLE
+                        <span class="tag-length">6</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/3WHEEL/" title="3WHEEL: 6">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="3WHEEL" style="background-color: #85C1E9;">3WHEEL
+                        <span class="tag-length">6</span>
                     </span>
                 </a>
                 
@@ -693,33 +695,6 @@
                 </a>
                 
                 
-                <a href="/tags/BAJAJ/" title="BAJAJ: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="BAJAJ" style="background-color: #F5EEF8;">BAJAJ
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/BM125/" title="BM125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="BM125" style="background-color: #F9EBEA;">BM125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/BAJAJ-BOXER-BM125/" title="BAJAJ BOXER BM125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="BAJAJ BOXER BM125" style="background-color: #F8C471;">BAJAJ BOXER BM125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/BASIN-TOOTH/" title="BASIN TOOTH: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -729,29 +704,29 @@
                 </a>
                 
                 
-                <a href="/tags/Back-Shock/" title="Back Shock: 1">
+                <a href="/tags/YBR125/" title="YBR125: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Back Shock" style="background-color: #F9E79F;">Back Shock
+                            data-tagname="YBR125" style="background-color: #F8F9F9;">YBR125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Absorber/" title="Absorber: 3">
+                <a href="/tags/Starter-Clutch-Body/" title="Starter Clutch Body: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Absorber" style="background-color: #FFF;">Absorber
+                            data-tagname="Starter Clutch Body" style="background-color: #85C1E9;">Starter Clutch Body
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/BAJAJ/" title="BAJAJ: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="BAJAJ" style="background-color: #F5EEF8;">BAJAJ
                         <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Outer-Brake-Cam/" title="Outer Brake Cam: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Outer Brake Cam" style="background-color: #82E0AA;">Outer Brake Cam
-                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -792,19 +767,46 @@
                 </a>
                 
                 
-                <a href="/tags/Starter-Clutch-Body/" title="Starter Clutch Body: 1">
+                <a href="/tags/Brake-Shoe/" title="Brake Shoe: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Starter Clutch Body" style="background-color: #85C1E9;">Starter Clutch Body
+                            data-tagname="Brake Shoe" style="background-color: #F8F9F9;">Brake Shoe
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Brake-Rod/" title="Brake Rod: 1">
+                <a href="/tags/Brake-Pad/" title="Brake Pad: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Brake Rod" style="background-color: #D5F5E3;">Brake Rod
+                            data-tagname="Brake Pad" style="background-color: #FFF;">Brake Pad
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Outer-Brake-Cam/" title="Outer Brake Cam: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Outer Brake Cam" style="background-color: #82E0AA;">Outer Brake Cam
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/BM125/" title="BM125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="BM125" style="background-color: #F9EBEA;">BM125
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/BAJAJ-BOXER-BM125/" title="BAJAJ BOXER BM125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="BAJAJ BOXER BM125" style="background-color: #F8C471;">BAJAJ BOXER BM125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -837,28 +839,10 @@
                 </a>
                 
                 
-                <a href="/tags/Brake-Shoe/" title="Brake Shoe: 1">
+                <a href="/tags/Brake-Rod/" title="Brake Rod: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Brake Shoe" style="background-color: #F8F9F9;">Brake Shoe
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Brake-Pad/" title="Brake Pad: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Brake Pad" style="background-color: #FFF;">Brake Pad
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Button-Switch/" title="Button Switch: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Button Switch" style="background-color: #FFF;">Button Switch
+                            data-tagname="Brake Rod" style="background-color: #D5F5E3;">Brake Rod
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -891,6 +875,15 @@
                 </a>
                 
                 
+                <a href="/tags/Button-Switch/" title="Button Switch: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Button Switch" style="background-color: #FFF;">Button Switch
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Camshaft/" title="Camshaft: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -904,33 +897,6 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Carburetor Kit" style="background-color: #A3E4D7;">Carburetor Kit
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Carburetor/" title="Carburetor: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Carburetor" style="background-color: #D7BDE2;">Carburetor
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Carbon-Brush/" title="Carbon Brush: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Carbon Brush" style="background-color: #F9EBEA;">Carbon Brush
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Carburetor-Hose/" title="Carburetor Hose: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Carburetor Hose" style="background-color: #FFF;">Carburetor Hose
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -954,28 +920,19 @@
                 </a>
                 
                 
-                <a href="/tags/Chain-Adjuster/" title="Chain Adjuster: 1">
+                <a href="/tags/Carburetor-Hose/" title="Carburetor Hose: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Chain Adjuster" style="background-color: #E8F8F5;">Chain Adjuster
+                            data-tagname="Carburetor Hose" style="background-color: #FFF;">Carburetor Hose
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Clutch-Assy/" title="Clutch Assy: 2">
+                <a href="/tags/Carburetor/" title="Carburetor: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Clutch Assy" style="background-color: #85C1E9;">Clutch Assy
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Clutch-Disk-Plate/" title="Clutch&Disk Plate: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Clutch&Disk Plate" style="background-color: #FFF;">Clutch&Disk Plate
+                            data-tagname="Carburetor" style="background-color: #D7BDE2;">Carburetor
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -990,6 +947,24 @@
                 </a>
                 
                 
+                <a href="/tags/Carbon-Brush/" title="Carbon Brush: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Carbon Brush" style="background-color: #F9EBEA;">Carbon Brush
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Clutch-Assy/" title="Clutch Assy: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Clutch Assy" style="background-color: #85C1E9;">Clutch Assy
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Clutch-Fiber/" title="Clutch Fiber: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -999,10 +974,19 @@
                 </a>
                 
                 
-                <a href="/tags/Complete-Wire/" title="Complete Wire: 1">
+                <a href="/tags/Chain-Adjuster/" title="Chain Adjuster: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Complete Wire" style="background-color: #F9EBEA;">Complete Wire
+                            data-tagname="Chain Adjuster" style="background-color: #E8F8F5;">Chain Adjuster
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Clutch-Disk-Plate/" title="Clutch&Disk Plate: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Clutch&Disk Plate" style="background-color: #FFF;">Clutch&Disk Plate
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1026,10 +1010,19 @@
                 </a>
                 
                 
-                <a href="/tags/Crank-Shaft/" title="Crank Shaft: 1">
+                <a href="/tags/Crank-Case-Bearing/" title="Crank Case Bearing: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Crank Shaft" style="background-color: #E8F8F5;">Crank Shaft
+                            data-tagname="Crank Case Bearing" style="background-color: #F8F9F9;">Crank Case Bearing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Complete-Wire/" title="Complete Wire: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Complete Wire" style="background-color: #F9EBEA;">Complete Wire
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1053,19 +1046,10 @@
                 </a>
                 
                 
-                <a href="/tags/Crank-Case-Bearing/" title="Crank Case Bearing: 1">
+                <a href="/tags/Crank-Shaft/" title="Crank Shaft: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Crank Case Bearing" style="background-color: #F8F9F9;">Crank Case Bearing
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Down-Fork-Bushing/" title="Down Fork Bushing: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Down Fork Bushing" style="background-color: #F5EEF8;">Down Fork Bushing
+                            data-tagname="Crank Shaft" style="background-color: #E8F8F5;">Crank Shaft
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1084,6 +1068,42 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Engine Block" style="background-color: #FFF;">Engine Block
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Iron-Part/" title="Iron Part: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Iron Part" style="background-color: #F9E79F;">Iron Part
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Fender/" title="Fender: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Fender" style="background-color: #FEF9E7;">Fender
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Footrest-Assembly/" title="Footrest Assembly: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Footrest Assembly" style="background-color: #D5F5E3;">Footrest Assembly
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Down-Fork-Bushing/" title="Down Fork Bushing: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Down Fork Bushing" style="background-color: #F5EEF8;">Down Fork Bushing
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1116,46 +1136,10 @@
                 </a>
                 
                 
-                <a href="/tags/Iron-Part/" title="Iron Part: 1">
+                <a href="/tags/FORWARD-TOOTH/" title="FORWARD TOOTH: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Iron Part" style="background-color: #F9E79F;">Iron Part
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Fender/" title="Fender: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Fender" style="background-color: #FEF9E7;">Fender
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Exhaust-Pipe-Bracket/" title="Exhaust Pipe Bracket: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Exhaust Pipe Bracket" style="background-color: #E8F8F5;">Exhaust Pipe Bracket
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CG125/" title="CG125: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CG125" style="background-color: #F8F9F9;">CG125
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Footrest-Assembly/" title="Footrest Assembly: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Footrest Assembly" style="background-color: #D5F5E3;">Footrest Assembly
+                            data-tagname="FORWARD TOOTH" style="background-color: #82E0AA;">FORWARD TOOTH
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1165,15 +1149,6 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Front Footrest Rubber" style="background-color: #F8F9F9;">Front Footrest Rubber
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/FORWARD-TOOTH/" title="FORWARD TOOTH: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="FORWARD TOOTH" style="background-color: #82E0AA;">FORWARD TOOTH
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1215,6 +1190,42 @@
                 </a>
                 
                 
+                <a href="/tags/Fuel-Hose/" title="Fuel Hose: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Fuel Hose" style="background-color: #D5F5E3;">Fuel Hose
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Exhaust-Pipe-Bracket/" title="Exhaust Pipe Bracket: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Exhaust Pipe Bracket" style="background-color: #E8F8F5;">Exhaust Pipe Bracket
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CG125/" title="CG125: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CG125" style="background-color: #F8F9F9;">CG125
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Hand-Grip-Cover/" title="Hand Grip Cover: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Hand Grip Cover" style="background-color: #A3E4D7;">Hand Grip Cover
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Gasket/" title="Gasket: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -1224,11 +1235,20 @@
                 </a>
                 
                 
-                <a href="/tags/Fuel-Hose/" title="Fuel Hose: 1">
+                <a href="/tags/HEADLIGHT/" title="HEADLIGHT: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Fuel Hose" style="background-color: #D5F5E3;">Fuel Hose
-                        <span class="tag-length">1</span>
+                            data-tagname="HEADLIGHT" style="background-color: #85C1E9;">HEADLIGHT
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/LED/" title="LED: 10">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="LED" style="background-color: #FFF;">LED
+                        <span class="tag-length">10</span>
                     </span>
                 </a>
                 
@@ -1251,65 +1271,11 @@
                 </a>
                 
                 
-                <a href="/tags/Hand-Grip-Cover/" title="Hand Grip Cover: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Hand Grip Cover" style="background-color: #A3E4D7;">Hand Grip Cover
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Clutch-Lever/" title="Clutch Lever: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Clutch Lever" style="background-color: #D5F5E3;">Clutch Lever
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Brake-Lever/" title="Brake Lever: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Brake Lever" style="background-color: #85C1E9;">Brake Lever
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Mirror-Holder/" title="Mirror Holder: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Mirror Holder" style="background-color: #A3E4D7;">Mirror Holder
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/HEADLIGHT/" title="HEADLIGHT: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="HEADLIGHT" style="background-color: #85C1E9;">HEADLIGHT
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/BAJAJ100/" title="BAJAJ100: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="BAJAJ100" style="background-color: #D7BDE2;">BAJAJ100
                         <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/LED/" title="LED: 10">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="LED" style="background-color: #FFF;">LED
-                        <span class="tag-length">10</span>
                     </span>
                 </a>
                 
@@ -1323,46 +1289,10 @@
                 </a>
                 
                 
-                <a href="/tags/Glass-Series/" title="Glass Series: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Glass Series" style="background-color: #D5F5E3;">Glass Series
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Sunflower-Series/" title="Sunflower Series: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Sunflower Series" style="background-color: #D7BDE2;">Sunflower Series
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Today50/" title="Today50: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Today50" style="background-color: #FFF;">Today50
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/GFC/" title="GFC: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="GFC" style="background-color: #A3E4D7;">GFC
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Horn/" title="Horn: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Horn" style="background-color: #F5EEF8;">Horn
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1395,6 +1325,60 @@
                 </a>
                 
                 
+                <a href="/tags/Clutch-Lever/" title="Clutch Lever: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Clutch Lever" style="background-color: #D5F5E3;">Clutch Lever
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Brake-Lever/" title="Brake Lever: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Brake Lever" style="background-color: #85C1E9;">Brake Lever
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Mirror-Holder/" title="Mirror Holder: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Mirror Holder" style="background-color: #A3E4D7;">Mirror Holder
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Horn/" title="Horn: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Horn" style="background-color: #F5EEF8;">Horn
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Today50/" title="Today50: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Today50" style="background-color: #FFF;">Today50
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/GFC/" title="GFC: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="GFC" style="background-color: #A3E4D7;">GFC
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Inner-Kick/" title="Inner Kick: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -1404,10 +1388,10 @@
                 </a>
                 
                 
-                <a href="/tags/Led-Module/" title="Led Module: 1">
+                <a href="/tags/Glass-Series/" title="Glass Series: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Led Module" style="background-color: #85C1E9;">Led Module
+                            data-tagname="Glass Series" style="background-color: #D5F5E3;">Glass Series
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1440,19 +1424,10 @@
                 </a>
                 
                 
-                <a href="/tags/Oil-Pump-Cup/" title="Oil Pump Cup: 1">
+                <a href="/tags/Led-Module/" title="Led Module: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Oil Pump Cup" style="background-color: #F9EBEA;">Oil Pump Cup
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Neck-Bearing/" title="Neck Bearing: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Neck Bearing" style="background-color: #85C1E9;">Neck Bearing
+                            data-tagname="Led Module" style="background-color: #85C1E9;">Led Module
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1467,10 +1442,19 @@
                 </a>
                 
                 
-                <a href="/tags/Oil-Seal/" title="Oil Seal: 1">
+                <a href="/tags/Oil-Pump-Cup/" title="Oil Pump Cup: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Oil Seal" style="background-color: #FFF;">Oil Seal
+                            data-tagname="Oil Pump Cup" style="background-color: #F9EBEA;">Oil Pump Cup
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Oil-Pump/" title="Oil Pump: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Oil Pump" style="background-color: #F8C471;">Oil Pump
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1494,10 +1478,19 @@
                 </a>
                 
                 
-                <a href="/tags/Oil-Pump/" title="Oil Pump: 1">
+                <a href="/tags/Neck-Bearing/" title="Neck Bearing: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Oil Pump" style="background-color: #F8C471;">Oil Pump
+                            data-tagname="Neck Bearing" style="background-color: #85C1E9;">Neck Bearing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Oil-Seal/" title="Oil Seal: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Oil Seal" style="background-color: #FFF;">Oil Seal
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1521,10 +1514,37 @@
                 </a>
                 
                 
+                <a href="/tags/Piston-Bearing/" title="Piston Bearing: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Piston Bearing" style="background-color: #D5F5E3;">Piston Bearing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/PISTON/" title="PISTON: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="PISTON" style="background-color: #FEF9E7;">PISTON
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Pointer/" title="Pointer: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Pointer" style="background-color: #E8F8F5;">Pointer
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Turn-Light/" title="Turn Light: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Turn Light" style="background-color: #F5EEF8;">Turn Light
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1548,15 +1568,6 @@
                 </a>
                 
                 
-                <a href="/tags/Piston-Bearing/" title="Piston Bearing: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Piston Bearing" style="background-color: #D5F5E3;">Piston Bearing
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Rear-Footrest/" title="Rear Footrest: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -1566,10 +1577,19 @@
                 </a>
                 
                 
-                <a href="/tags/Rear-Light-Cover/" title="Rear Light Cover: 1">
+                <a href="/tags/Rocker-Arm/" title="Rocker Arm: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Rear Light Cover" style="background-color: #A3E4D7;">Rear Light Cover
+                            data-tagname="Rocker Arm" style="background-color: #85C1E9;">Rocker Arm
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Seat-Cover-Net/" title="Seat Cover Net: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Seat Cover Net" style="background-color: #85C1E9;">Seat Cover Net
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1602,46 +1622,10 @@
                 </a>
                 
                 
-                <a href="/tags/Rocker-Arm/" title="Rocker Arm: 1">
+                <a href="/tags/Rear-Light-Cover/" title="Rear Light Cover: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Rocker Arm" style="background-color: #85C1E9;">Rocker Arm
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Seat-Cover-Net/" title="Seat Cover Net: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Seat Cover Net" style="background-color: #85C1E9;">Seat Cover Net
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Shock-Bushing/" title="Shock Bushing: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Shock Bushing" style="background-color: #A3E4D7;">Shock Bushing
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Pointer/" title="Pointer: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Pointer" style="background-color: #E8F8F5;">Pointer
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Turn-Light/" title="Turn Light: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Turn Light" style="background-color: #F5EEF8;">Turn Light
+                            data-tagname="Rear Light Cover" style="background-color: #A3E4D7;">Rear Light Cover
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1665,10 +1649,28 @@
                 </a>
                 
                 
-                <a href="/tags/Side-Stand/" title="Side Stand: 1">
+                <a href="/tags/Spark-Plug-Cap/" title="Spark Plug Cap: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Side Stand" style="background-color: #85C1E9;">Side Stand
+                            data-tagname="Spark Plug Cap" style="background-color: #D7BDE2;">Spark Plug Cap
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Shock-Bushing/" title="Shock Bushing: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Shock Bushing" style="background-color: #A3E4D7;">Shock Bushing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Spark-Plug/" title="Spark Plug: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Spark Plug" style="background-color: #F8F9F9;">Spark Plug
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1692,19 +1694,10 @@
                 </a>
                 
                 
-                <a href="/tags/Spark-Plug-Cap/" title="Spark Plug Cap: 1">
+                <a href="/tags/Side-Stand/" title="Side Stand: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Spark Plug Cap" style="background-color: #D7BDE2;">Spark Plug Cap
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Spring/" title="Spring: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Spring" style="background-color: #F9E79F;">Spring
+                            data-tagname="Side Stand" style="background-color: #85C1E9;">Side Stand
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1728,10 +1721,19 @@
                 </a>
                 
                 
-                <a href="/tags/Spark-Plug/" title="Spark Plug: 1">
+                <a href="/tags/Starter-Motor/" title="Starter Motor: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Spark Plug" style="background-color: #F8F9F9;">Spark Plug
+                            data-tagname="Starter Motor" style="background-color: #F9E79F;">Starter Motor
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Spring/" title="Spring: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Spring" style="background-color: #F9E79F;">Spring
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1755,42 +1757,6 @@
                 </a>
                 
                 
-                <a href="/tags/Tappet-Valve/" title="Tappet Valve: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Tappet Valve" style="background-color: #FFF;">Tappet Valve
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Starter-Motor/" title="Starter Motor: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Starter Motor" style="background-color: #F9E79F;">Starter Motor
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/The-External-Light/" title="The External Light: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="The External Light" style="background-color: #A3E4D7;">The External Light
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Lens-Series/" title="Lens Series: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Lens Series" style="background-color: #A3E4D7;">Lens Series
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Screw-Nut-Accessory/" title="Screw Nut Accessory: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -1804,24 +1770,6 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Sprocket Screws Bolts" style="background-color: #F9EBEA;">Sprocket Screws Bolts
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/U-Holder-Series/" title="U Holder Series: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="U Holder Series" style="background-color: #FFF;">U Holder Series
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Truck-Lights/" title="Truck Lights: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Truck Lights" style="background-color: #F9EBEA;">Truck Lights
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1845,10 +1793,37 @@
                 </a>
                 
                 
-                <a href="/tags/Timing-Sprocket/" title="Timing Sprocket: 1">
+                <a href="/tags/Tappet-Valve/" title="Tappet Valve: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Timing Sprocket" style="background-color: #D5F5E3;">Timing Sprocket
+                            data-tagname="Tappet Valve" style="background-color: #FFF;">Tappet Valve
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/The-External-Light/" title="The External Light: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="The External Light" style="background-color: #A3E4D7;">The External Light
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/U-Holder-Series/" title="U Holder Series: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="U Holder Series" style="background-color: #FFF;">U Holder Series
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Lens-Series/" title="Lens Series: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Lens Series" style="background-color: #A3E4D7;">Lens Series
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1876,6 +1851,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="General Model" style="background-color: #F9EBEA;">General Model
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Truck-Lights/" title="Truck Lights: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Truck Lights" style="background-color: #F9EBEA;">Truck Lights
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1930,6 +1914,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Valve Cover" style="background-color: #FEF9E7;">Valve Cover
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Timing-Sprocket/" title="Timing Sprocket: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Timing Sprocket" style="background-color: #D5F5E3;">Timing Sprocket
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1999,7 +1992,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -2224,7 +2217,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 

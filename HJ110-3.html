@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -181,17 +170,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/about" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
@@ -217,7 +195,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/HJ110-3/Haojue%20HJ110-3.jpeg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/HJ110-3/Haojue%20HJ110-3.webp')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -437,7 +415,7 @@
                 <a href="/HJ110-5.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="/images/HJ110-5/HJ110-5.jpeg" class="responsive-img" alt="HJ110-5">
+                        <img src="/medias/loading.gif" data-original="/images/HJ110-5/Haojue%20HJ110-5.webp" class="responsive-img" alt="HJ110-5">
                         
                         <span class="card-title">HJ110-5</span>
                     </div>
@@ -493,7 +471,7 @@
                 <a href="/HJ110-2.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="/images/HJ110-2/HJ110-2.jpeg" class="responsive-img" alt="HJ110-2">
+                        <img src="/medias/loading.gif" data-original="/images/HJ110-2/Haojue%20HJ110-2.webp" class="responsive-img" alt="HJ110-2">
                         
                         <span class="card-title">HJ110-2</span>
                     </div>
@@ -580,7 +558,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -805,7 +783,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 

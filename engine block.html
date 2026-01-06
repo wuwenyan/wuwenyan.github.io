@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -175,17 +164,6 @@
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
 			Categories
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
 		</a>
           
         </li>
@@ -620,7 +598,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -845,7 +823,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 

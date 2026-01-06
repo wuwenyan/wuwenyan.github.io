@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -175,17 +164,6 @@
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
 			Categories
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
 		</a>
           
         </li>
@@ -257,7 +235,22 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/1.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+<script>
+    
+        var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/featureimages/motorcyclepictures/" + Math.ceil(Math.random() * 24) + '.webp';
+    
+    if (window.innerWidth <= 768) {
+        // 如果是手机端，可以在这里添加一些JS逻辑
+        console.log('Detected mobile device');
+        // 或者加载移动端特有的JS/资源
+    } else {
+        console.log('Detected PC device');
+    }
+    $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -462,7 +455,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12"]
+            data: ["2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01"]
         },
         yAxis: {
             type: 'value',
@@ -472,7 +465,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,16,0,5,6,9,1,0,5],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -514,7 +507,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"SUZUKI AX100","value":1},{"name":"YAMAHA CY80","value":1},{"name":"YAMAHA CRYPTON","value":1},{"name":"HONDA CD110","value":1},{"name":"SUZUKI GN125","value":1},{"name":"HONDA CB125","value":1},{"name":"KYMCO GY6","value":1},{"name":"HAOJUE Xpress","value":1},{"name":"HAOJUE KA150","value":1},{"name":"HAOJUE HJ110-2","value":1},{"name":"HAOJUE HJ110-3","value":1},{"name":"HAOJUE HJ110-7","value":1},{"name":"HAOJUE HJ110-8","value":1},{"name":"HAOJUE HJ110-5","value":1},{"name":"HAOJUE HJ125","value":1},{"name":"YAMAHA V80","value":1},{"name":"HAOJUE HJ110","value":1},{"name":"HAOJUE HJ110-6","value":1},{"name":"HONDA WAVE110","value":1},{"name":"TVS","value":1},{"name":"TRICYCLE PARTS","value":6},{"name":"HONDA WIN100","value":1},{"name":"YAMAHA YBR125","value":1},{"name":"HONDA ACTIVA","value":1},{"name":"RUBBER","value":6},{"name":"AXLE BOLT","value":1},{"name":"BAJAJ BOXER BM125","value":1},{"name":"ABSORBER","value":3},{"name":"OUTER BRAKE CAM","value":1},{"name":"BAJAJ BOXER BM150","value":1},{"name":"BEARING","value":4},{"name":"FORGED PARTS","value":3},{"name":"ENGINE PARTS","value":3},{"name":"BRAKE ROD","value":1},{"name":"BULB SITTING","value":1},{"name":"BRAKE SHOE","value":1},{"name":"BUTTON SWITCH","value":1},{"name":"CABLE","value":1},{"name":"CAMSHAFT","value":1},{"name":"CARBURETOR","value":2},{"name":"CARBON BRUSH","value":1},{"name":"CARRY ROPE","value":1},{"name":"SCREW NUT ACCESSORY","value":5},{"name":"CLUTCH ASSY","value":2},{"name":"CHAIN COVER","value":1},{"name":"WIRE","value":1},{"name":"COMPLETE TIMING CHAIN","value":1},{"name":"CRANK SHAFT","value":1},{"name":"DOWN FORK BUSHING","value":1},{"name":"ENGINE BLOCK","value":1},{"name":"ENGINE VALVE","value":1},{"name":"IRON PARTS","value":1},{"name":"EXHAUST PIPE BRACKET","value":1},{"name":"FOOTREST ASSEMBLY","value":1},{"name":"FUEL TAP","value":1},{"name":"GASKET","value":1},{"name":"LED LIGHTS","value":11},{"name":"HAND GRIP COVER","value":1},{"name":"HANDLE LEVER","value":1},{"name":"HONDA TODAY","value":1},{"name":"ELECTRICAL PARTS","value":3},{"name":"HELMET","value":1},{"name":"INNER KICK","value":1},{"name":"LED MODULE","value":1},{"name":"MAIN STAND","value":1},{"name":"OIL SEAL","value":1},{"name":"HONDA PCX150","value":1},{"name":"PISTON","value":1},{"name":"PLASTIC PARTS","value":4},{"name":"FOOTREST","value":1},{"name":"BODY PARTS","value":1},{"name":"ROCKER ARM","value":1},{"name":"SEAT COVER","value":1},{"name":"SIDE STAND","value":1},{"name":"SIDE MIRROR","value":1},{"name":"SPRING","value":1},{"name":"SPINDLE","value":1},{"name":"SPARK PLUG","value":1},{"name":"SPROCKET","value":2},{"name":"TAPPET VALVE","value":1},{"name":"SWITCH KEY","value":1},{"name":"TVS Apache RTR 160","value":1},{"name":"TVS Apache RTR 180","value":1},{"name":"VALVE COVER","value":1},{"name":"WINKER","value":1},{"name":"BAJAJ","value":1},{"name":"HONDA CG125","value":1}],
+                data: [{"name":"SUZUKI AX100","value":1},{"name":"HONDA CD110","value":1},{"name":"YAMAHA CRYPTON","value":1},{"name":"SUZUKI GN125","value":1},{"name":"HAOJUE KA150","value":1},{"name":"HAOJUE Xpress","value":1},{"name":"YAMAHA CY80","value":1},{"name":"HAOJUE HJ110-2","value":1},{"name":"HONDA CB125","value":1},{"name":"HAOJUE HJ110-3","value":1},{"name":"KYMCO GY6","value":1},{"name":"HAOJUE HJ110-6","value":1},{"name":"HAOJUE HJ110-5","value":1},{"name":"HAOJUE HJ110-7","value":1},{"name":"HAOJUE HJ110-8","value":1},{"name":"YAMAHA V80","value":1},{"name":"HAOJUE HJ125","value":1},{"name":"HAOJUE HJ110","value":1},{"name":"TVS","value":1},{"name":"HONDA WIN100","value":1},{"name":"RUBBER","value":6},{"name":"HONDA WAVE110","value":1},{"name":"ABSORBER","value":3},{"name":"HONDA ACTIVA","value":1},{"name":"TRICYCLE PARTS","value":6},{"name":"AXLE BOLT","value":1},{"name":"YAMAHA YBR125","value":1},{"name":"ENGINE PARTS","value":3},{"name":"BAJAJ BOXER BM150","value":1},{"name":"BEARING","value":4},{"name":"FORGED PARTS","value":3},{"name":"BRAKE SHOE","value":1},{"name":"OUTER BRAKE CAM","value":1},{"name":"BAJAJ BOXER BM125","value":1},{"name":"BULB SITTING","value":1},{"name":"BRAKE ROD","value":1},{"name":"CABLE","value":1},{"name":"BUTTON SWITCH","value":1},{"name":"CAMSHAFT","value":1},{"name":"CARBURETOR","value":2},{"name":"CARRY ROPE","value":1},{"name":"CHAIN COVER","value":1},{"name":"CARBON BRUSH","value":1},{"name":"CLUTCH ASSY","value":2},{"name":"SCREW NUT ACCESSORY","value":5},{"name":"COMPLETE TIMING CHAIN","value":1},{"name":"WIRE","value":1},{"name":"CRANK SHAFT","value":1},{"name":"ENGINE BLOCK","value":1},{"name":"IRON PARTS","value":1},{"name":"FOOTREST ASSEMBLY","value":1},{"name":"DOWN FORK BUSHING","value":1},{"name":"ENGINE VALVE","value":1},{"name":"FUEL TAP","value":1},{"name":"EXHAUST PIPE BRACKET","value":1},{"name":"HAND GRIP COVER","value":1},{"name":"GASKET","value":1},{"name":"LED LIGHTS","value":11},{"name":"HELMET","value":1},{"name":"HANDLE LEVER","value":1},{"name":"ELECTRICAL PARTS","value":3},{"name":"HONDA TODAY","value":1},{"name":"INNER KICK","value":1},{"name":"MAIN STAND","value":1},{"name":"LED MODULE","value":1},{"name":"HONDA PCX150","value":1},{"name":"OIL SEAL","value":1},{"name":"PISTON","value":1},{"name":"PLASTIC PARTS","value":4},{"name":"FOOTREST","value":1},{"name":"ROCKER ARM","value":1},{"name":"SEAT COVER","value":1},{"name":"BODY PARTS","value":1},{"name":"SPARK PLUG","value":1},{"name":"SIDE MIRROR","value":1},{"name":"SIDE STAND","value":1},{"name":"SPINDLE","value":1},{"name":"SPRING","value":1},{"name":"SPROCKET","value":2},{"name":"SWITCH KEY","value":1},{"name":"TAPPET VALVE","value":1},{"name":"TVS Apache RTR 160","value":1},{"name":"TVS Apache RTR 180","value":1},{"name":"VALVE COVER","value":1},{"name":"WINKER","value":1},{"name":"BAJAJ","value":1},{"name":"HONDA CG125","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -538,7 +531,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["HAOJUE","LED","HONDA","HJ110","TRICYCLE","3WHEEL","YAMAHA","HEADLIGHT","TVS","BAJAJ"]
+                data: ["HAOJUE","LED","HONDA","HJ110","TRICYCLE","3WHEEL","YAMAHA","HEADLIGHT","TVS","Absorber"]
             }
         ],
         yAxis: [
@@ -692,24 +685,6 @@
             
             
             
-            <a href="/tags/YAMAHA/">
-                <span class="chip center-align waves-effect waves-light chip-default">YAMAHA</span>
-            </a>
-            
-            
-            
-            <a href="/tags/CY80/">
-                <span class="chip center-align waves-effect waves-light chip-default">CY80</span>
-            </a>
-            
-            
-            
-            <a href="/tags/CRYPTON/">
-                <span class="chip center-align waves-effect waves-light chip-default">CRYPTON</span>
-            </a>
-            
-            
-            
             <a href="/tags/HONDA/">
                 <span class="chip center-align waves-effect waves-light chip-default">HONDA</span>
             </a>
@@ -722,8 +697,56 @@
             
             
             
+            <a href="/tags/YAMAHA/">
+                <span class="chip center-align waves-effect waves-light chip-default">YAMAHA</span>
+            </a>
+            
+            
+            
+            <a href="/tags/CRYPTON/">
+                <span class="chip center-align waves-effect waves-light chip-default">CRYPTON</span>
+            </a>
+            
+            
+            
             <a href="/tags/GN125/">
                 <span class="chip center-align waves-effect waves-light chip-default">GN125</span>
+            </a>
+            
+            
+            
+            <a href="/tags/HAOJUE/">
+                <span class="chip center-align waves-effect waves-light chip-default">HAOJUE</span>
+            </a>
+            
+            
+            
+            <a href="/tags/KA150/">
+                <span class="chip center-align waves-effect waves-light chip-default">KA150</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Xpress/">
+                <span class="chip center-align waves-effect waves-light chip-default">Xpress</span>
+            </a>
+            
+            
+            
+            <a href="/tags/CY80/">
+                <span class="chip center-align waves-effect waves-light chip-default">CY80</span>
+            </a>
+            
+            
+            
+            <a href="/tags/HJ110/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ110</span>
+            </a>
+            
+            
+            
+            <a href="/tags/HJ110-2/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ110-2</span>
             </a>
             
             
@@ -736,6 +759,12 @@
             
             <a href="/tags/KYY/">
                 <span class="chip center-align waves-effect waves-light chip-default">KYY</span>
+            </a>
+            
+            
+            
+            <a href="/tags/HJ110-3/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ110-3</span>
             </a>
             
             
@@ -764,38 +793,20 @@
             
             
             
-            <a href="/tags/HAOJUE/">
-                <span class="chip center-align waves-effect waves-light chip-default">HAOJUE</span>
+            <a href="/tags/HJ110-6/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ110-6</span>
             </a>
             
             
             
-            <a href="/tags/Xpress/">
-                <span class="chip center-align waves-effect waves-light chip-default">Xpress</span>
+            <a href="/tags/UD110/">
+                <span class="chip center-align waves-effect waves-light chip-default">UD110</span>
             </a>
             
             
             
-            <a href="/tags/KA150/">
-                <span class="chip center-align waves-effect waves-light chip-default">KA150</span>
-            </a>
-            
-            
-            
-            <a href="/tags/HJ110/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ110</span>
-            </a>
-            
-            
-            
-            <a href="/tags/HJ110-2/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ110-2</span>
-            </a>
-            
-            
-            
-            <a href="/tags/HJ110-3/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ110-3</span>
+            <a href="/tags/HJ110-5/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ110-5</span>
             </a>
             
             
@@ -830,50 +841,14 @@
             
             
             
-            <a href="/tags/HJ110-5/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ110-5</span>
-            </a>
-            
-            
-            
-            <a href="/tags/HJ125/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ125</span>
-            </a>
-            
-            
-            
             <a href="/tags/V80/">
                 <span class="chip center-align waves-effect waves-light chip-default">V80</span>
             </a>
             
             
             
-            <a href="/tags/HJ110-6/">
-                <span class="chip center-align waves-effect waves-light chip-default">HJ110-6</span>
-            </a>
-            
-            
-            
-            <a href="/tags/UD110/">
-                <span class="chip center-align waves-effect waves-light chip-default">UD110</span>
-            </a>
-            
-            
-            
-            <a href="/tags/WAVE110/">
-                <span class="chip center-align waves-effect waves-light chip-default">WAVE110</span>
-            </a>
-            
-            
-            
-            <a href="/tags/KWW/">
-                <span class="chip center-align waves-effect waves-light chip-default">KWW</span>
-            </a>
-            
-            
-            
-            <a href="/tags/KWB/">
-                <span class="chip center-align waves-effect waves-light chip-default">KWB</span>
+            <a href="/tags/HJ125/">
+                <span class="chip center-align waves-effect waves-light chip-default">HJ125</span>
             </a>
             
             
@@ -896,32 +871,44 @@
             
             
             
-            <a href="/tags/ANGLE-TOOTH/">
-                <span class="chip center-align waves-effect waves-light chip-default">ANGLE TOOTH</span>
-            </a>
-            
-            
-            
-            <a href="/tags/TRICYCLE/">
-                <span class="chip center-align waves-effect waves-light chip-default">TRICYCLE</span>
-            </a>
-            
-            
-            
-            <a href="/tags/3WHEEL/">
-                <span class="chip center-align waves-effect waves-light chip-default">3WHEEL</span>
-            </a>
-            
-            
-            
             <a href="/tags/WIN100/">
                 <span class="chip center-align waves-effect waves-light chip-default">WIN100</span>
             </a>
             
             
             
-            <a href="/tags/YBR125/">
-                <span class="chip center-align waves-effect waves-light chip-default">YBR125</span>
+            <a href="/tags/Air-Filter/">
+                <span class="chip center-align waves-effect waves-light chip-default">Air Filter</span>
+            </a>
+            
+            
+            
+            <a href="/tags/WAVE110/">
+                <span class="chip center-align waves-effect waves-light chip-default">WAVE110</span>
+            </a>
+            
+            
+            
+            <a href="/tags/KWW/">
+                <span class="chip center-align waves-effect waves-light chip-default">KWW</span>
+            </a>
+            
+            
+            
+            <a href="/tags/KWB/">
+                <span class="chip center-align waves-effect waves-light chip-default">KWB</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Back-Shock/">
+                <span class="chip center-align waves-effect waves-light chip-default">Back Shock</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Absorber/">
+                <span class="chip center-align waves-effect waves-light chip-default">Absorber</span>
             </a>
             
             
@@ -944,8 +931,20 @@
             
             
             
-            <a href="/tags/Air-Filter/">
-                <span class="chip center-align waves-effect waves-light chip-default">Air Filter</span>
+            <a href="/tags/ANGLE-TOOTH/">
+                <span class="chip center-align waves-effect waves-light chip-default">ANGLE TOOTH</span>
+            </a>
+            
+            
+            
+            <a href="/tags/TRICYCLE/">
+                <span class="chip center-align waves-effect waves-light chip-default">TRICYCLE</span>
+            </a>
+            
+            
+            
+            <a href="/tags/3WHEEL/">
+                <span class="chip center-align waves-effect waves-light chip-default">3WHEEL</span>
             </a>
             
             
@@ -962,44 +961,26 @@
             
             
             
-            <a href="/tags/BAJAJ/">
-                <span class="chip center-align waves-effect waves-light chip-default">BAJAJ</span>
-            </a>
-            
-            
-            
-            <a href="/tags/BM125/">
-                <span class="chip center-align waves-effect waves-light chip-default">BM125</span>
-            </a>
-            
-            
-            
-            <a href="/tags/BAJAJ-BOXER-BM125/">
-                <span class="chip center-align waves-effect waves-light chip-default">BAJAJ BOXER BM125</span>
-            </a>
-            
-            
-            
             <a href="/tags/BASIN-TOOTH/">
                 <span class="chip center-align waves-effect waves-light chip-default">BASIN TOOTH</span>
             </a>
             
             
             
-            <a href="/tags/Back-Shock/">
-                <span class="chip center-align waves-effect waves-light chip-default">Back Shock</span>
+            <a href="/tags/YBR125/">
+                <span class="chip center-align waves-effect waves-light chip-default">YBR125</span>
             </a>
             
             
             
-            <a href="/tags/Absorber/">
-                <span class="chip center-align waves-effect waves-light chip-default">Absorber</span>
+            <a href="/tags/Starter-Clutch-Body/">
+                <span class="chip center-align waves-effect waves-light chip-default">Starter Clutch Body</span>
             </a>
             
             
             
-            <a href="/tags/Outer-Brake-Cam/">
-                <span class="chip center-align waves-effect waves-light chip-default">Outer Brake Cam</span>
+            <a href="/tags/BAJAJ/">
+                <span class="chip center-align waves-effect waves-light chip-default">BAJAJ</span>
             </a>
             
             
@@ -1028,11 +1009,33 @@
             
             
             
-            <a href="/tags/Starter-Clutch-Body/">
-                <span class="chip center-align waves-effect waves-light chip-default">Starter Clutch Body</span>
+            <a href="/tags/Brake-Shoe/">
+                <span class="chip center-align waves-effect waves-light chip-default">Brake Shoe</span>
             </a>
             
             
+            
+            <a href="/tags/Brake-Pad/">
+                <span class="chip center-align waves-effect waves-light chip-default">Brake Pad</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Outer-Brake-Cam/">
+                <span class="chip center-align waves-effect waves-light chip-default">Outer Brake Cam</span>
+            </a>
+            
+            
+            
+            <a href="/tags/BM125/">
+                <span class="chip center-align waves-effect waves-light chip-default">BM125</span>
+            </a>
+            
+            
+            
+            <a href="/tags/BAJAJ-BOXER-BM125/">
+                <span class="chip center-align waves-effect waves-light chip-default">BAJAJ BOXER BM125</span>
+            </a>
             
             
             
@@ -1054,22 +1057,6 @@
             
             
             
-            <a href="/tags/Brake-Shoe/">
-                <span class="chip center-align waves-effect waves-light chip-default">Brake Shoe</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Brake-Pad/">
-                <span class="chip center-align waves-effect waves-light chip-default">Brake Pad</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Button-Switch/">
-                <span class="chip center-align waves-effect waves-light chip-default">Button Switch</span>
-            </a>
-            
             
             
             <a href="/tags/Cable/">
@@ -1090,6 +1077,12 @@
             
             
             
+            <a href="/tags/Button-Switch/">
+                <span class="chip center-align waves-effect waves-light chip-default">Button Switch</span>
+            </a>
+            
+            
+            
             <a href="/tags/Camshaft/">
                 <span class="chip center-align waves-effect waves-light chip-default">Camshaft</span>
             </a>
@@ -1098,24 +1091,6 @@
             
             <a href="/tags/Carburetor-Kit/">
                 <span class="chip center-align waves-effect waves-light chip-default">Carburetor Kit</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Carburetor/">
-                <span class="chip center-align waves-effect waves-light chip-default">Carburetor</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Carbon-Brush/">
-                <span class="chip center-align waves-effect waves-light chip-default">Carbon Brush</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Carburetor-Hose/">
-                <span class="chip center-align waves-effect waves-light chip-default">Carburetor Hose</span>
             </a>
             
             
@@ -1132,16 +1107,14 @@
             
             
             
-            
-            
-            <a href="/tags/Clutch-Assy/">
-                <span class="chip center-align waves-effect waves-light chip-default">Clutch Assy</span>
+            <a href="/tags/Carburetor-Hose/">
+                <span class="chip center-align waves-effect waves-light chip-default">Carburetor Hose</span>
             </a>
             
             
             
-            <a href="/tags/Clutch-Disk-Plate/">
-                <span class="chip center-align waves-effect waves-light chip-default">Clutch&Disk Plate</span>
+            <a href="/tags/Carburetor/">
+                <span class="chip center-align waves-effect waves-light chip-default">Carburetor</span>
             </a>
             
             
@@ -1152,14 +1125,28 @@
             
             
             
+            <a href="/tags/Carbon-Brush/">
+                <span class="chip center-align waves-effect waves-light chip-default">Carbon Brush</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Clutch-Assy/">
+                <span class="chip center-align waves-effect waves-light chip-default">Clutch Assy</span>
+            </a>
+            
+            
+            
             <a href="/tags/Clutch-Fiber/">
                 <span class="chip center-align waves-effect waves-light chip-default">Clutch Fiber</span>
             </a>
             
             
             
-            <a href="/tags/Complete-Wire/">
-                <span class="chip center-align waves-effect waves-light chip-default">Complete Wire</span>
+            
+            
+            <a href="/tags/Clutch-Disk-Plate/">
+                <span class="chip center-align waves-effect waves-light chip-default">Clutch&Disk Plate</span>
             </a>
             
             
@@ -1176,8 +1163,14 @@
             
             
             
-            <a href="/tags/Crank-Shaft/">
-                <span class="chip center-align waves-effect waves-light chip-default">Crank Shaft</span>
+            <a href="/tags/Crank-Case-Bearing/">
+                <span class="chip center-align waves-effect waves-light chip-default">Crank Case Bearing</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Complete-Wire/">
+                <span class="chip center-align waves-effect waves-light chip-default">Complete Wire</span>
             </a>
             
             
@@ -1194,14 +1187,8 @@
             
             
             
-            <a href="/tags/Crank-Case-Bearing/">
-                <span class="chip center-align waves-effect waves-light chip-default">Crank Case Bearing</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Down-Fork-Bushing/">
-                <span class="chip center-align waves-effect waves-light chip-default">Down Fork Bushing</span>
+            <a href="/tags/Crank-Shaft/">
+                <span class="chip center-align waves-effect waves-light chip-default">Crank Shaft</span>
             </a>
             
             
@@ -1214,6 +1201,30 @@
             
             <a href="/tags/Engine-Block/">
                 <span class="chip center-align waves-effect waves-light chip-default">Engine Block</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Iron-Part/">
+                <span class="chip center-align waves-effect waves-light chip-default">Iron Part</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Fender/">
+                <span class="chip center-align waves-effect waves-light chip-default">Fender</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Footrest-Assembly/">
+                <span class="chip center-align waves-effect waves-light chip-default">Footrest Assembly</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Down-Fork-Bushing/">
+                <span class="chip center-align waves-effect waves-light chip-default">Down Fork Bushing</span>
             </a>
             
             
@@ -1236,44 +1247,14 @@
             
             
             
-            <a href="/tags/Iron-Part/">
-                <span class="chip center-align waves-effect waves-light chip-default">Iron Part</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Fender/">
-                <span class="chip center-align waves-effect waves-light chip-default">Fender</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Exhaust-Pipe-Bracket/">
-                <span class="chip center-align waves-effect waves-light chip-default">Exhaust Pipe Bracket</span>
-            </a>
-            
-            
-            
-            <a href="/tags/CG125/">
-                <span class="chip center-align waves-effect waves-light chip-default">CG125</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Footrest-Assembly/">
-                <span class="chip center-align waves-effect waves-light chip-default">Footrest Assembly</span>
+            <a href="/tags/FORWARD-TOOTH/">
+                <span class="chip center-align waves-effect waves-light chip-default">FORWARD TOOTH</span>
             </a>
             
             
             
             <a href="/tags/Front-Footrest-Rubber/">
                 <span class="chip center-align waves-effect waves-light chip-default">Front Footrest Rubber</span>
-            </a>
-            
-            
-            
-            <a href="/tags/FORWARD-TOOTH/">
-                <span class="chip center-align waves-effect waves-light chip-default">FORWARD TOOTH</span>
             </a>
             
             
@@ -1302,10 +1283,40 @@
             
             
             
-            
-            
             <a href="/tags/Fuel-Hose/">
                 <span class="chip center-align waves-effect waves-light chip-default">Fuel Hose</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Exhaust-Pipe-Bracket/">
+                <span class="chip center-align waves-effect waves-light chip-default">Exhaust Pipe Bracket</span>
+            </a>
+            
+            
+            
+            <a href="/tags/CG125/">
+                <span class="chip center-align waves-effect waves-light chip-default">CG125</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Hand-Grip-Cover/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hand Grip Cover</span>
+            </a>
+            
+            
+            
+            
+            
+            <a href="/tags/HEADLIGHT/">
+                <span class="chip center-align waves-effect waves-light chip-default">HEADLIGHT</span>
+            </a>
+            
+            
+            
+            <a href="/tags/LED/">
+                <span class="chip center-align waves-effect waves-light chip-default">LED</span>
             </a>
             
             
@@ -1322,44 +1333,8 @@
             
             
             
-            <a href="/tags/Hand-Grip-Cover/">
-                <span class="chip center-align waves-effect waves-light chip-default">Hand Grip Cover</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Clutch-Lever/">
-                <span class="chip center-align waves-effect waves-light chip-default">Clutch Lever</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Brake-Lever/">
-                <span class="chip center-align waves-effect waves-light chip-default">Brake Lever</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Mirror-Holder/">
-                <span class="chip center-align waves-effect waves-light chip-default">Mirror Holder</span>
-            </a>
-            
-            
-            
-            <a href="/tags/HEADLIGHT/">
-                <span class="chip center-align waves-effect waves-light chip-default">HEADLIGHT</span>
-            </a>
-            
-            
-            
             <a href="/tags/BAJAJ100/">
                 <span class="chip center-align waves-effect waves-light chip-default">BAJAJ100</span>
-            </a>
-            
-            
-            
-            <a href="/tags/LED/">
-                <span class="chip center-align waves-effect waves-light chip-default">LED</span>
             </a>
             
             
@@ -1370,32 +1345,8 @@
             
             
             
-            <a href="/tags/Glass-Series/">
-                <span class="chip center-align waves-effect waves-light chip-default">Glass Series</span>
-            </a>
-            
-            
-            
             <a href="/tags/Sunflower-Series/">
                 <span class="chip center-align waves-effect waves-light chip-default">Sunflower Series</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Today50/">
-                <span class="chip center-align waves-effect waves-light chip-default">Today50</span>
-            </a>
-            
-            
-            
-            <a href="/tags/GFC/">
-                <span class="chip center-align waves-effect waves-light chip-default">GFC</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Horn/">
-                <span class="chip center-align waves-effect waves-light chip-default">Horn</span>
             </a>
             
             
@@ -1418,14 +1369,50 @@
             
             
             
+            <a href="/tags/Clutch-Lever/">
+                <span class="chip center-align waves-effect waves-light chip-default">Clutch Lever</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Brake-Lever/">
+                <span class="chip center-align waves-effect waves-light chip-default">Brake Lever</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Mirror-Holder/">
+                <span class="chip center-align waves-effect waves-light chip-default">Mirror Holder</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Horn/">
+                <span class="chip center-align waves-effect waves-light chip-default">Horn</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Today50/">
+                <span class="chip center-align waves-effect waves-light chip-default">Today50</span>
+            </a>
+            
+            
+            
+            <a href="/tags/GFC/">
+                <span class="chip center-align waves-effect waves-light chip-default">GFC</span>
+            </a>
+            
+            
+            
             <a href="/tags/Inner-Kick/">
                 <span class="chip center-align waves-effect waves-light chip-default">Inner Kick</span>
             </a>
             
             
             
-            <a href="/tags/Led-Module/">
-                <span class="chip center-align waves-effect waves-light chip-default">Led Module</span>
+            <a href="/tags/Glass-Series/">
+                <span class="chip center-align waves-effect waves-light chip-default">Glass Series</span>
             </a>
             
             
@@ -1448,14 +1435,8 @@
             
             
             
-            <a href="/tags/Oil-Pump-Cup/">
-                <span class="chip center-align waves-effect waves-light chip-default">Oil Pump Cup</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Neck-Bearing/">
-                <span class="chip center-align waves-effect waves-light chip-default">Neck Bearing</span>
+            <a href="/tags/Led-Module/">
+                <span class="chip center-align waves-effect waves-light chip-default">Led Module</span>
             </a>
             
             
@@ -1465,6 +1446,16 @@
             </a>
             
             
+            
+            <a href="/tags/Oil-Pump-Cup/">
+                <span class="chip center-align waves-effect waves-light chip-default">Oil Pump Cup</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Oil-Pump/">
+                <span class="chip center-align waves-effect waves-light chip-default">Oil Pump</span>
+            </a>
             
             
             
@@ -1480,9 +1471,11 @@
             
             
             
-            <a href="/tags/Oil-Pump/">
-                <span class="chip center-align waves-effect waves-light chip-default">Oil Pump</span>
+            <a href="/tags/Neck-Bearing/">
+                <span class="chip center-align waves-effect waves-light chip-default">Neck Bearing</span>
             </a>
+            
+            
             
             
             
@@ -1498,8 +1491,26 @@
             
             
             
+            <a href="/tags/Piston-Bearing/">
+                <span class="chip center-align waves-effect waves-light chip-default">Piston Bearing</span>
+            </a>
+            
+            
+            
             <a href="/tags/PISTON/">
                 <span class="chip center-align waves-effect waves-light chip-default">PISTON</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Pointer/">
+                <span class="chip center-align waves-effect waves-light chip-default">Pointer</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Turn-Light/">
+                <span class="chip center-align waves-effect waves-light chip-default">Turn Light</span>
             </a>
             
             
@@ -1516,20 +1527,20 @@
             
             
             
-            <a href="/tags/Piston-Bearing/">
-                <span class="chip center-align waves-effect waves-light chip-default">Piston Bearing</span>
-            </a>
-            
-            
-            
             <a href="/tags/Rear-Footrest/">
                 <span class="chip center-align waves-effect waves-light chip-default">Rear Footrest</span>
             </a>
             
             
             
-            <a href="/tags/Rear-Light-Cover/">
-                <span class="chip center-align waves-effect waves-light chip-default">Rear Light Cover</span>
+            <a href="/tags/Rocker-Arm/">
+                <span class="chip center-align waves-effect waves-light chip-default">Rocker Arm</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Seat-Cover-Net/">
+                <span class="chip center-align waves-effect waves-light chip-default">Seat Cover Net</span>
             </a>
             
             
@@ -1552,32 +1563,8 @@
             
             
             
-            <a href="/tags/Rocker-Arm/">
-                <span class="chip center-align waves-effect waves-light chip-default">Rocker Arm</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Seat-Cover-Net/">
-                <span class="chip center-align waves-effect waves-light chip-default">Seat Cover Net</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Shock-Bushing/">
-                <span class="chip center-align waves-effect waves-light chip-default">Shock Bushing</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Pointer/">
-                <span class="chip center-align waves-effect waves-light chip-default">Pointer</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Turn-Light/">
-                <span class="chip center-align waves-effect waves-light chip-default">Turn Light</span>
+            <a href="/tags/Rear-Light-Cover/">
+                <span class="chip center-align waves-effect waves-light chip-default">Rear Light Cover</span>
             </a>
             
             
@@ -1594,8 +1581,20 @@
             
             
             
-            <a href="/tags/Side-Stand/">
-                <span class="chip center-align waves-effect waves-light chip-default">Side Stand</span>
+            <a href="/tags/Spark-Plug-Cap/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spark Plug Cap</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Shock-Bushing/">
+                <span class="chip center-align waves-effect waves-light chip-default">Shock Bushing</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spark-Plug/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spark Plug</span>
             </a>
             
             
@@ -1612,11 +1611,9 @@
             
             
             
-            <a href="/tags/Spark-Plug-Cap/">
-                <span class="chip center-align waves-effect waves-light chip-default">Spark Plug Cap</span>
+            <a href="/tags/Side-Stand/">
+                <span class="chip center-align waves-effect waves-light chip-default">Side Stand</span>
             </a>
-            
-            
             
             
             
@@ -1632,9 +1629,11 @@
             
             
             
-            <a href="/tags/Spark-Plug/">
-                <span class="chip center-align waves-effect waves-light chip-default">Spark Plug</span>
+            <a href="/tags/Starter-Motor/">
+                <span class="chip center-align waves-effect waves-light chip-default">Starter Motor</span>
             </a>
+            
+            
             
             
             
@@ -1646,30 +1645,6 @@
             
             <a href="/tags/Sprocket/">
                 <span class="chip center-align waves-effect waves-light chip-default">Sprocket</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Tappet-Valve/">
-                <span class="chip center-align waves-effect waves-light chip-default">Tappet Valve</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Starter-Motor/">
-                <span class="chip center-align waves-effect waves-light chip-default">Starter Motor</span>
-            </a>
-            
-            
-            
-            <a href="/tags/The-External-Light/">
-                <span class="chip center-align waves-effect waves-light chip-default">The External Light</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Lens-Series/">
-                <span class="chip center-align waves-effect waves-light chip-default">Lens Series</span>
             </a>
             
             
@@ -1686,18 +1661,6 @@
             
             
             
-            <a href="/tags/U-Holder-Series/">
-                <span class="chip center-align waves-effect waves-light chip-default">U Holder Series</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Truck-Lights/">
-                <span class="chip center-align waves-effect waves-light chip-default">Truck Lights</span>
-            </a>
-            
-            
-            
             <a href="/tags/Switch-Key/">
                 <span class="chip center-align waves-effect waves-light chip-default">Switch Key</span>
             </a>
@@ -1710,8 +1673,26 @@
             
             
             
-            <a href="/tags/Timing-Sprocket/">
-                <span class="chip center-align waves-effect waves-light chip-default">Timing Sprocket</span>
+            <a href="/tags/Tappet-Valve/">
+                <span class="chip center-align waves-effect waves-light chip-default">Tappet Valve</span>
+            </a>
+            
+            
+            
+            <a href="/tags/The-External-Light/">
+                <span class="chip center-align waves-effect waves-light chip-default">The External Light</span>
+            </a>
+            
+            
+            
+            <a href="/tags/U-Holder-Series/">
+                <span class="chip center-align waves-effect waves-light chip-default">U Holder Series</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Lens-Series/">
+                <span class="chip center-align waves-effect waves-light chip-default">Lens Series</span>
             </a>
             
             
@@ -1730,6 +1711,12 @@
             
             <a href="/tags/General-Model/">
                 <span class="chip center-align waves-effect waves-light chip-default">General Model</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Truck-Lights/">
+                <span class="chip center-align waves-effect waves-light chip-default">Truck Lights</span>
             </a>
             
             
@@ -1766,6 +1753,12 @@
             
             <a href="/tags/Valve-Cover/">
                 <span class="chip center-align waves-effect waves-light chip-default">Valve Cover</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Timing-Sprocket/">
+                <span class="chip center-align waves-effect waves-light chip-default">Timing Sprocket</span>
             </a>
             
             
@@ -1969,7 +1962,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -2194,7 +2187,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 

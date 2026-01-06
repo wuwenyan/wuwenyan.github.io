@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -181,17 +170,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/about" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
@@ -250,7 +228,22 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/1.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+<script>
+    
+        var bannerUrl = "https://fastly.jsdelivr.net/gh/wuwenyan/wuwenyan.github.io/medias/featureimages/motorcyclepictures/" + Math.ceil(Math.random() * 24) + '.webp';
+    
+    if (window.innerWidth <= 768) {
+        // 如果是手机端，可以在这里添加一些JS逻辑
+        console.log('Detected mobile device');
+        // 或者加载移动端特有的JS/资源
+    } else {
+        console.log('Detected PC device');
+    }
+    $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -280,10 +273,10 @@
                 </a>
                 
                 
-                <a href="/categories/YAMAHA-CY80/" title="YAMAHA CY80: 1">
+                <a href="/categories/HONDA-CD110/" title="HONDA CD110: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">YAMAHA CY80
+                            style="background-color: #F5EEF8;">HONDA CD110
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -298,46 +291,10 @@
                 </a>
                 
                 
-                <a href="/categories/HONDA-CD110/" title="HONDA CD110: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #E8F8F5;">HONDA CD110
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/SUZUKI-GN125/" title="SUZUKI GN125: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #FEF9E7;">SUZUKI GN125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/HONDA-CB125/" title="HONDA CB125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8F9F9;">HONDA CB125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/KYMCO-GY6/" title="KYMCO GY6: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #82E0AA;">KYMCO GY6
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/HAOJUE-Xpress/" title="HAOJUE Xpress: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D7BDE2;">HAOJUE Xpress
+                            style="background-color: #E8F8F5;">SUZUKI GN125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -346,7 +303,25 @@
                 <a href="/categories/HAOJUE-KA150/" title="HAOJUE KA150: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #A3E4D7;">HAOJUE KA150
+                            style="background-color: #FEF9E7;">HAOJUE KA150
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/HAOJUE-Xpress/" title="HAOJUE Xpress: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F8F9F9;">HAOJUE Xpress
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/YAMAHA-CY80/" title="YAMAHA CY80: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #82E0AA;">YAMAHA CY80
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -355,7 +330,16 @@
                 <a href="/categories/HAOJUE-HJ110-2/" title="HAOJUE HJ110-2: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #85C1E9;">HAOJUE HJ110-2
+                            style="background-color: #D7BDE2;">HAOJUE HJ110-2
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/HONDA-CB125/" title="HONDA CB125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #A3E4D7;">HONDA CB125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -364,25 +348,25 @@
                 <a href="/categories/HAOJUE-HJ110-3/" title="HAOJUE HJ110-3: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F8C471;">HAOJUE HJ110-3
+                            style="background-color: #85C1E9;">HAOJUE HJ110-3
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/HAOJUE-HJ110-7/" title="HAOJUE HJ110-7: 1">
+                <a href="/categories/KYMCO-GY6/" title="KYMCO GY6: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9E79F;">HAOJUE HJ110-7
+                            style="background-color: #F8C471;">KYMCO GY6
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/HAOJUE-HJ110-8/" title="HAOJUE HJ110-8: 1">
+                <a href="/categories/HAOJUE-HJ110-6/" title="HAOJUE HJ110-6: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">HAOJUE HJ110-8
+                            style="background-color: #F9E79F;">HAOJUE HJ110-6
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -397,10 +381,19 @@
                 </a>
                 
                 
-                <a href="/categories/HAOJUE-HJ125/" title="HAOJUE HJ125: 1">
+                <a href="/categories/HAOJUE-HJ110-7/" title="HAOJUE HJ110-7: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">HAOJUE HJ125
+                            style="background-color: #FEF9E7;">HAOJUE HJ110-7
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/HAOJUE-HJ110-8/" title="HAOJUE HJ110-8: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">HAOJUE HJ110-8
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -415,28 +408,19 @@
                 </a>
                 
                 
+                <a href="/categories/HAOJUE-HJ125/" title="HAOJUE HJ125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">HAOJUE HJ125
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/HAOJUE-HJ110/" title="HAOJUE HJ110: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #82E0AA;">HAOJUE HJ110
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/HAOJUE-HJ110-6/" title="HAOJUE HJ110-6: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8F9F9;">HAOJUE HJ110-6
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/HONDA-WAVE110/" title="HONDA WAVE110: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D7BDE2;">HONDA WAVE110
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -451,37 +435,10 @@
                 </a>
                 
                 
-                <a href="/categories/TRICYCLE-PARTS/" title="TRICYCLE PARTS: 6">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #A3E4D7;">TRICYCLE PARTS
-                        <span class="tag-length">6</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/HONDA-WIN100/" title="HONDA WIN100: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #D5F5E3;">HONDA WIN100
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/YAMAHA-YBR125/" title="YAMAHA YBR125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">YAMAHA YBR125
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/HONDA-ACTIVA/" title="HONDA ACTIVA: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8F9F9;">HONDA ACTIVA
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -496,19 +453,10 @@
                 </a>
                 
                 
-                <a href="/categories/AXLE-BOLT/" title="AXLE BOLT: 1">
+                <a href="/categories/HONDA-WAVE110/" title="HONDA WAVE110: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #FEF9E7;">AXLE BOLT
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/BAJAJ-BOXER-BM125/" title="BAJAJ BOXER BM125: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8C471;">BAJAJ BOXER BM125
+                            style="background-color: #D7BDE2;">HONDA WAVE110
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -523,11 +471,47 @@
                 </a>
                 
                 
-                <a href="/categories/OUTER-BRAKE-CAM/" title="OUTER BRAKE CAM: 1">
+                <a href="/categories/HONDA-ACTIVA/" title="HONDA ACTIVA: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">OUTER BRAKE CAM
+                            style="background-color: #F8F9F9;">HONDA ACTIVA
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/TRICYCLE-PARTS/" title="TRICYCLE PARTS: 6">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #A3E4D7;">TRICYCLE PARTS
+                        <span class="tag-length">6</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/AXLE-BOLT/" title="AXLE BOLT: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">AXLE BOLT
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/YAMAHA-YBR125/" title="YAMAHA YBR125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">YAMAHA YBR125
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/ENGINE-PARTS/" title="ENGINE PARTS: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #A3E4D7;">ENGINE PARTS
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -559,19 +543,28 @@
                 </a>
                 
                 
-                <a href="/categories/ENGINE-PARTS/" title="ENGINE PARTS: 3">
+                <a href="/categories/BRAKE-SHOE/" title="BRAKE SHOE: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #A3E4D7;">ENGINE PARTS
-                        <span class="tag-length">3</span>
+                            style="background-color: #E8F8F5;">BRAKE SHOE
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/BRAKE-ROD/" title="BRAKE ROD: 1">
+                <a href="/categories/OUTER-BRAKE-CAM/" title="OUTER BRAKE CAM: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">BRAKE ROD
+                            style="background-color: #F5EEF8;">OUTER BRAKE CAM
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/BAJAJ-BOXER-BM125/" title="BAJAJ BOXER BM125: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F8C471;">BAJAJ BOXER BM125
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -586,19 +579,10 @@
                 </a>
                 
                 
-                <a href="/categories/BRAKE-SHOE/" title="BRAKE SHOE: 1">
+                <a href="/categories/BRAKE-ROD/" title="BRAKE ROD: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">BRAKE SHOE
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/BUTTON-SWITCH/" title="BUTTON SWITCH: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #A3E4D7;">BUTTON SWITCH
+                            style="background-color: #D5F5E3;">BRAKE ROD
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -608,6 +592,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #A3E4D7;">CABLE
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/BUTTON-SWITCH/" title="BUTTON SWITCH: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #A3E4D7;">BUTTON SWITCH
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -631,15 +624,6 @@
                 </a>
                 
                 
-                <a href="/categories/CARBON-BRUSH/" title="CARBON BRUSH: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FFF;">CARBON BRUSH
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/CARRY-ROPE/" title="CARRY ROPE: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -649,11 +633,20 @@
                 </a>
                 
                 
-                <a href="/categories/SCREW-NUT-ACCESSORY/" title="SCREW NUT ACCESSORY: 5">
+                <a href="/categories/CHAIN-COVER/" title="CHAIN COVER: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D7BDE2;">SCREW NUT ACCESSORY
-                        <span class="tag-length">5</span>
+                            style="background-color: #D7BDE2;">CHAIN COVER
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/CARBON-BRUSH/" title="CARBON BRUSH: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FFF;">CARBON BRUSH
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -667,10 +660,19 @@
                 </a>
                 
                 
-                <a href="/categories/CHAIN-COVER/" title="CHAIN COVER: 1">
+                <a href="/categories/SCREW-NUT-ACCESSORY/" title="SCREW NUT ACCESSORY: 5">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D7BDE2;">CHAIN COVER
+                            style="background-color: #D7BDE2;">SCREW NUT ACCESSORY
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/COMPLETE-TIMING-CHAIN/" title="COMPLETE TIMING CHAIN: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">COMPLETE TIMING CHAIN
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -685,28 +687,10 @@
                 </a>
                 
                 
-                <a href="/categories/COMPLETE-TIMING-CHAIN/" title="COMPLETE TIMING CHAIN: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D5F5E3;">COMPLETE TIMING CHAIN
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/CRANK-SHAFT/" title="CRANK SHAFT: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #F9E79F;">CRANK SHAFT
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/DOWN-FORK-BUSHING/" title="DOWN FORK BUSHING: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D5F5E3;">DOWN FORK BUSHING
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -721,28 +705,10 @@
                 </a>
                 
                 
-                <a href="/categories/ENGINE-VALVE/" title="ENGINE VALVE: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">ENGINE VALVE
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/IRON-PARTS/" title="IRON PARTS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #F8C471;">IRON PARTS
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/EXHAUST-PIPE-BRACKET/" title="EXHAUST PIPE BRACKET: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D5F5E3;">EXHAUST PIPE BRACKET
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -757,10 +723,46 @@
                 </a>
                 
                 
+                <a href="/categories/DOWN-FORK-BUSHING/" title="DOWN FORK BUSHING: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">DOWN FORK BUSHING
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/ENGINE-VALVE/" title="ENGINE VALVE: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">ENGINE VALVE
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/FUEL-TAP/" title="FUEL TAP: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #85C1E9;">FUEL TAP
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/EXHAUST-PIPE-BRACKET/" title="EXHAUST PIPE BRACKET: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">EXHAUST PIPE BRACKET
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/HAND-GRIP-COVER/" title="HAND GRIP COVER: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">HAND GRIP COVER
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -784,10 +786,10 @@
                 </a>
                 
                 
-                <a href="/categories/HAND-GRIP-COVER/" title="HAND GRIP COVER: 1">
+                <a href="/categories/HELMET/" title="HELMET: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">HAND GRIP COVER
+                            style="background-color: #F9E79F;">HELMET
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -802,15 +804,6 @@
                 </a>
                 
                 
-                <a href="/categories/HONDA-TODAY/" title="HONDA TODAY: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">HONDA TODAY
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/ELECTRICAL-PARTS/" title="ELECTRICAL PARTS: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -820,10 +813,10 @@
                 </a>
                 
                 
-                <a href="/categories/HELMET/" title="HELMET: 1">
+                <a href="/categories/HONDA-TODAY/" title="HONDA TODAY: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9E79F;">HELMET
+                            style="background-color: #F5EEF8;">HONDA TODAY
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -838,15 +831,6 @@
                 </a>
                 
                 
-                <a href="/categories/LED-MODULE/" title="LED MODULE: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #E8F8F5;">LED MODULE
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/MAIN-STAND/" title="MAIN STAND: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -856,10 +840,10 @@
                 </a>
                 
                 
-                <a href="/categories/OIL-SEAL/" title="OIL SEAL: 1">
+                <a href="/categories/LED-MODULE/" title="LED MODULE: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">OIL SEAL
+                            style="background-color: #E8F8F5;">LED MODULE
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -869,6 +853,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #82E0AA;">HONDA PCX150
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/OIL-SEAL/" title="OIL SEAL: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">OIL SEAL
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -901,15 +894,6 @@
                 </a>
                 
                 
-                <a href="/categories/BODY-PARTS/" title="BODY PARTS: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #85C1E9;">BODY PARTS
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/ROCKER-ARM/" title="ROCKER ARM: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -928,37 +912,10 @@
                 </a>
                 
                 
-                <a href="/categories/SIDE-STAND/" title="SIDE STAND: 1">
+                <a href="/categories/BODY-PARTS/" title="BODY PARTS: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #85C1E9;">SIDE STAND
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/SIDE-MIRROR/" title="SIDE MIRROR: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8C471;">SIDE MIRROR
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/SPRING/" title="SPRING: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">SPRING
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/SPINDLE/" title="SPINDLE: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D5F5E3;">SPINDLE
+                            style="background-color: #85C1E9;">BODY PARTS
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -973,6 +930,42 @@
                 </a>
                 
                 
+                <a href="/categories/SIDE-MIRROR/" title="SIDE MIRROR: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F8C471;">SIDE MIRROR
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/SIDE-STAND/" title="SIDE STAND: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #85C1E9;">SIDE STAND
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/SPINDLE/" title="SPINDLE: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">SPINDLE
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/SPRING/" title="SPRING: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">SPRING
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/SPROCKET/" title="SPROCKET: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -982,19 +975,19 @@
                 </a>
                 
                 
-                <a href="/categories/TAPPET-VALVE/" title="TAPPET VALVE: 1">
+                <a href="/categories/SWITCH-KEY/" title="SWITCH KEY: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9E79F;">TAPPET VALVE
+                            style="background-color: #82E0AA;">SWITCH KEY
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/SWITCH-KEY/" title="SWITCH KEY: 1">
+                <a href="/categories/TAPPET-VALVE/" title="TAPPET VALVE: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #82E0AA;">SWITCH KEY
+                            style="background-color: #F9E79F;">TAPPET VALVE
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -1129,7 +1122,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -1354,7 +1347,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 

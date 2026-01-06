@@ -102,17 +102,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
@@ -175,17 +164,6 @@
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
 			Categories
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
 		</a>
           
         </li>
@@ -262,6 +240,11 @@
     .toc-widget {
         width: 345px;
         padding-left: 20px;
+        
+        /* background-color: rgb(255, 255, 255,0.7); */
+        /* border-radius: 10px; */
+        /* box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important; */
+
     }
 
     .toc-widget .toc-title {
@@ -350,7 +333,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2023-07-07
+                    2025-12-30
                 </div>
                 
 
@@ -952,7 +935,7 @@ $(document).ready(function(){
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-12-30
                             </span>
                         <span class="publish-author">
                             
@@ -990,7 +973,7 @@ $(document).ready(function(){
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-12-30
                             </span>
                         <span class="publish-author">
                             
@@ -1139,7 +1122,7 @@ $(document).ready(function(){
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2023</span>
+                <span id="year">2021-2026</span>
             
             <a href="/about" target="_blank">ADAEZE</a>
             <br>
@@ -1364,7 +1347,8 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    // searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("/" + "search.json", 'searchInput', 'searchResult');
 });
 </script>
 
